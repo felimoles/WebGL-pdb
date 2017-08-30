@@ -28,6 +28,47 @@
    input, select, button, textarea{border: 1px solid white; background-color: black; color: white;}
    option {background-color: black; color: white;}
    a {color: white;}
+   button {
+				color: rgb(255,255,255);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+      #menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+        z-index: 1;
+			}
+      #topmenu {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 100%;
+				text-align: right;
+				padding: 0;
+				margin: 0;
+				z-index: 1;
+			}
+      	button {
+				color: rgb(255,255,255);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: rgba(0,255,255,0.5);
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(0,255,255,1);
+			}
+
 
    #glmol01 {width: 100%; height: 100%; background-color: black; position: absolute;}
    .settings {position: absolute; right: 0px; top: 10%;
@@ -46,6 +87,80 @@
  </style>
 </head>
 <body>
+  <!-- menu -->
+		<div id="topmenu">
+			<button id="b_a">Capa 1</button>
+			<button id="b_b">Capa 2</button>
+			<button id="b_ab">Capa 1 + Capa 2</button>
+		</div>
+
+    <div id="menu"></div>
+
+  <script>
+    var MOLECULES = {
+      "9rnt":"9rnt.pdb",
+      "arginina5":"arginina5.pdb",
+     //"Caffeine": "caffeine.pdb",
+     "glicina":"glicina.pdb",
+     "helix_310":"helix_310.pdb",
+     "helix_alfa_short":"helix_alfa_short.pdb",
+     "trp":"trp.pdb",
+      "Betass3":"betas3.pdb"
+    };
+      var menu = document.getElementById( "menu" );
+
+        b_a.addEventListener( 'click', function() { visualizationType = 0; showAtoms() } );
+				b_b.addEventListener( 'click', function() { visualizationType = 1; showBonds() } );
+				b_ab.addEventListener( 'click', function() { visualizationType = 2; showAtomsBonds() } );
+        
+        function showAtoms(){
+          $('#glmol01_showMainchain').each(function(){ this.checked = false; });
+          $('#glmol01_showHetatms').each(function(){ this.checked = true; });
+          glmol01.defineRepresentation = defineRepFromController;
+          glmol01.rebuildScene();
+          glmol01.show();
+        }
+
+        function showBonds(){
+          $('#glmol01_showMainchain').each(function(){ this.checked = true; });
+          $('#glmol01_showHetatms').each(function(){ this.checked = false; });
+          glmol01.defineRepresentation = defineRepFromController;
+          glmol01.rebuildScene();
+          glmol01.show();
+        }
+
+        function showAtomsBonds(){
+           createMenu();
+           $('#glmol01_showHetatms').each(function(){ this.checked = true; });
+            $('#glmol01_showMainchain').each(function(){ this.checked = true; });
+         // $("#estado_cat").prop("checked", false);
+          glmol01.defineRepresentation = defineRepFromController;
+          glmol01.rebuildScene();
+          glmol01.show();
+         
+
+        }
+        	function generateButtonCallback( url ) {
+				return function ( event ) {
+					newmol( url );
+				}
+			}
+    
+        function createMenu() {
+				for ( var m in MOLECULES ) {
+					var button = document.createElement( 'button' );
+					button.innerHTML = m;
+					menu.appendChild( button );
+					var url = "prote/" +  MOLECULES[ m ];
+					button.addEventListener( 'click', generateButtonCallback( url ), false );
+				}
+        
+        }
+  
+  </script>
+  <!-- end menu -->
+
+
 
 <div id="glmol01"></div>
 <!--
@@ -67,7 +182,8 @@ Version 0.47 (20120827)</p>
  </div>
 </div> -->
 
-<div class="tabBox" id="glmol01_srcbox" style="left: 10%; z-index:0;">
+
+<div class="tabBox" id="glmol01_srcbox" style="left: 10%; z-index:0; display:none;">
 <span class="bottomTab">Load</span>
 <div class="insideTab">
 You can load PDB, MOL2, SDF/MOL(MDL not SYBYL) or XYZ files <br>
@@ -84,7 +200,9 @@ Compound ID(CID): <input id="glmol01_cid" value="2244" size=4><button onClick="d
 </div>
 </div>
 
-<div class="tabBox" id="glmol01_viewbox" style="left: 25%; z-index:1;">
+
+
+<div class="tabBox" id="glmol01_viewbox" style="left: 25%; z-index:1; display:none;">
 <span class="bottomTab">View</span>
 <div class="insideTab" style="overflow: auto;">
 Color by <select id="glmol01_color">
@@ -148,7 +266,7 @@ Projection: <select id="glmol01_projection">
 <input type="radio" name="glmol01_mouseMode" value="1">Translate<br>
 <input type="radio" name="glmol01_mouseMode" value="2">Zoom<br>
 <input type="radio" name="glmol01_mouseMode" value="3">Slab<br><br> -->
-<button onClick="glmol01.doFunc(function(mol) {mol.zoomInto(mol.getAllAtoms());mol.show()});">Reset view</button>
+<button onClick="glmol01.doFunc(function(mol) {mol.zoomInto(mol.getAllAtoms());mol.show()});">Resetear vista</button>
 </div>
 
 <div id="loading" style="border: 2px solid white; position: absolute; color: white; left: 10%; top: 10%; padding: 5px; z-index:101;">
@@ -170,7 +288,7 @@ var glmol01 = new GLmol('glmol01', true);
 var query = window.location.search.substring(1);
 if (query == '') download('pdb:2POR');
 else download(query);
-
+    createMenu();
 function download(query) {
    var baseURL = '';
    if (query.substr(0, 4) == 'pdb:') {
@@ -212,8 +330,19 @@ function addTab(tabId, height, zIndex) {
    );
 }
 
-function loadFile() {
-   var file = $('#glmol01_file').get(0);
+function newmol(uri){
+
+     $('#loading').show();
+   $.get(uri, function(ret) {
+      $("#glmol01_src").val(ret);
+      glmol01.loadMolecule();
+      $('#loading').hide();
+   });
+}
+
+function loadFile(url) {
+   //var file = $('#glmol01_file').get(0);
+   var file = url;
    if (file) file = file.files;
    if (!file || !window.FileReader || !file[0]) {
       alert("No file is selected. Or File API is not supported in your browser. Please try Firefox or Chrome.");
@@ -236,6 +365,7 @@ function saveImage() {
 }
 
 $('#glmol01_reload').click(function(ev) {
+  console.log(ev);
    glmol01.defineRepresentation = defineRepFromController;
    glmol01.rebuildScene();
    glmol01.show();
@@ -244,7 +374,7 @@ $('#glmol01_reload').click(function(ev) {
 function defineRepFromController() {
    var idHeader = "#" + this.id + '_';
 
-var time = new Date();
+  var time = new Date();
    var all = this.getAllAtoms();
    if ($(idHeader + 'biomt').attr('checked') && this.protein.biomtChains != "") all = this.getChain(all, this.protein.biomtChains);
    var allHet = this.getHetatms(all);
