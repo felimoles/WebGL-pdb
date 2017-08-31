@@ -105,6 +105,9 @@
      "helix_310":"helix_310.pdb",
      "helix_alfa_short":"helix_alfa_short.pdb",
      "trp":"trp.pdb",
+     "1aoi":"1aoi.pdb",
+     "1BU3":"1BU3",
+     "manoEF":"manoEF.pdb",
       "Betass3":"betas3.pdb"
     };
       var menu = document.getElementById( "menu" );
@@ -130,7 +133,7 @@
         }
 
         function showAtomsBonds(){
-           createMenu();
+           //createMenu();
            $('#glmol01_showHetatms').each(function(){ this.checked = true; });
             $('#glmol01_showMainchain').each(function(){ this.checked = true; });
          // $("#estado_cat").prop("checked", false);
@@ -202,7 +205,7 @@ Compound ID(CID): <input id="glmol01_cid" value="2244" size=4><button onClick="d
 
 
 
-<div class="tabBox" id="glmol01_viewbox" style="left: 25%; z-index:1; display:none;">
+<div class="tabBox" id="glmol01_viewbox" style="left: 25%; z-index:1;">
 <span class="bottomTab">View</span>
 <div class="insideTab" style="overflow: auto;">
 Color by <select id="glmol01_color">
