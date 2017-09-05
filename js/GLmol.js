@@ -1866,8 +1866,9 @@ GLmol.prototype.enableMouse = function() {
 GLmol.prototype.show = function() {
    if (!this.scene) return;
 
-   var time = new Date();
+   var time =  Date.now();
    this.setSlabAndFog();
+   
    this.renderer.render(this.scene, this.camera);
    console.log("rendered in " + (+new Date() - time) + "ms");
 };

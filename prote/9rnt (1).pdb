@@ -1,0 +1,1040 @@
+HEADER    HYDROLASE(ENDORIBONUCLEASE)             25-SEP-91   9RNT      9RNT   2
+COMPND    RIBONUCLEASE T=1= (E.C.3.1.27.3) COMPLEX WITH CA==2+==        9RNT   3
+SOURCE    (ASPERGILLUS ORYZAE) RECOMBINANT FORM EXPRESSED IN            9RNT   4
+SOURCE   2 (ESCHERICHIA COLI)                                           9RNT   5
+AUTHOR    J.MARTINEZ-OYANEDEL,U.HEINEMANN,W.SAENGER                     9RNT   6
+REVDAT   1   15-JAN-93 9RNT    0                                        9RNT   7
+JRNL        AUTH   J.MARTINEZ-OYANEDEL,H.-W.CHOE,U.HEINEMANN,           9RNT   8
+JRNL        AUTH 2 W.SAENGER                                            9RNT   9
+JRNL        TITL   RIBONUCLEASE T=1= WITH FREE RECOGNITION AND          9RNT  10
+JRNL        TITL 2 CATALYTIC SITE: CRYSTAL STRUCTURE ANALYSIS AT 1.5    9RNT  11
+JRNL        TITL 3 ANGSTROMS RESOLUTION                                 9RNT  12
+JRNL        REF    J.MOL.BIOL.                   V. 222   335 1991      9RNT  13
+JRNL        REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  9RNT  14
+REMARK   1                                                              9RNT  15
+REMARK   1 REFERENCE 1                                                  9RNT  16
+REMARK   1  AUTH   D.KOSTREWA,H.-W.CHOE,U.HEINEMANN,W.SAENGER           9RNT  17
+REMARK   1  TITL   CRYSTAL STRUCTURE OF GUANOSINE-*FREE RIBONUCLEASE    9RNT  18
+REMARK   1  TITL 2 T=1=, COMPLEXED WITH VANADATE(V), SUGGESTS           9RNT  19
+REMARK   1  TITL 3 CONFORMATIONAL CHANGE UPON SUBSTRATE BINDING         9RNT  20
+REMARK   1  REF    BIOCHEMISTRY                  V.  28  7592 1989      9RNT  21
+REMARK   1  REFN   ASTM BICHAW  US ISSN 0006-2960                  033  9RNT  22
+REMARK   1 REFERENCE 2                                                  9RNT  23
+REMARK   1  AUTH   R.ARNI,U.HEINEMANN,R.TOKUOKA,W.SAENGER               9RNT  24
+REMARK   1  TITL   THREE-DIMENSIONAL STRUCTURE OF THE RIBONUCLEASE      9RNT  25
+REMARK   1  TITL 2 T=1=(ASTERISK)2'-GMP COMPLEX AT                      9RNT  26
+REMARK   1  TITL 3 1.9-ANGSTROMS RESOLUTION                             9RNT  27
+REMARK   1  REF    J.BIOL.CHEM.                  V. 263 15358 1988      9RNT  28
+REMARK   1  REFN   ASTM JBCHA3  US ISSN 0021-9258                  071  9RNT  29
+REMARK   1 REFERENCE 3                                                  9RNT  30
+REMARK   1  AUTH   U.HEINEMANN,W.SAENGER                                9RNT  31
+REMARK   1  TITL   SPECIFIC PROTEIN-NUCLEIC ACID RECOGNITION IN         9RNT  32
+REMARK   1  TITL 2 RIBONUCLEASE T=1=-2'-GUANYLIC ACID COMPLEX.          9RNT  33
+REMARK   1  TITL 3 AN X-RAY STUDY                                       9RNT  34
+REMARK   1  REF    NATURE                        V. 299    27 1982      9RNT  35
+REMARK   1  REFN   ASTM NATUAS  UK ISSN 0028-0836                  006  9RNT  36
+REMARK   2                                                              9RNT  37
+REMARK   2 RESOLUTION. 1.5 ANGSTROMS.                                   9RNT  38
+REMARK   3                                                              9RNT  39
+REMARK   3 REFINEMENT. BY THE RESTRAINED LEAST-SQUARES PROCEDURE OF J.  9RNT  40
+REMARK   3  KONNERT AND W. HENDRICKSON MODIFIED BY B. FINZEL (PROGRAM   9RNT  41
+REMARK   3  *PROFFT*).  THE R VALUE IS 0.143 FOR 12632 REFLECTIONS IN   9RNT  42
+REMARK   3  THE RESOLUTION RANGE 6.0 TO 1.5 ANGSTROMS WITH FOBS .GT.    9RNT  43
+REMARK   3  SIGMA(FOBS).                                                9RNT  44
+REMARK   3                                                              9RNT  45
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES (THE VALUES OF             9RNT  46
+REMARK   3      SIGMA, IN PARENTHESES, ARE THE INPUT ESTIMATED          9RNT  47
+REMARK   3      STANDARD DEVIATIONS THAT DETERMINE THE RELATIVE         9RNT  48
+REMARK   3      WEIGHTS OF THE CORRESPONDING RESTRAINTS)                9RNT  49
+REMARK   3    DISTANCE RESTRAINTS (ANGSTROMS)                           9RNT  50
+REMARK   3      BOND DISTANCE                            0.025(0.020)   9RNT  51
+REMARK   3      ANGLE DISTANCE                           0.052(0.050)   9RNT  52
+REMARK   3      PLANAR 1-4 DISTANCE                      0.063(0.050)   9RNT  53
+REMARK   3    PLANE RESTRAINT (ANGSTROMS)                0.015(0.015)   9RNT  54
+REMARK   3    CHIRAL-CENTER RESTRAINT (ANGSTROMS**3)     0.268(0.150)   9RNT  55
+REMARK   3    NON-BONDED CONTACT RESTRAINTS (ANGSTROMS)                 9RNT  56
+REMARK   3      SINGLE TORSION CONTACT                   0.141(0.150)   9RNT  57
+REMARK   3      MULTIPLE TORSION CONTACT                 0.129(0.150)   9RNT  58
+REMARK   3    CONFORMATIONAL TORSION ANGLE RESTRAINT (DEGREES)          9RNT  59
+REMARK   3      PLANAR (OMEGA)                             2.8(3.0)     9RNT  60
+REMARK   3      STAGGERED                                 14.4(15.0)    9RNT  61
+REMARK   3      ORTHONORMAL                               26.0(20.0)    9RNT  62
+REMARK   3    ISOTROPIC THERMAL FACTOR RESTRAINTS (ANGSTROMS**2)        9RNT  63
+REMARK   3      MAIN-CHAIN BOND                           1.98(2.000)   9RNT  64
+REMARK   3      MAIN-CHAIN ANGLE                          2.69(3.000)   9RNT  65
+REMARK   3      SIDE-CHAIN BOND                           4.13(4.500)   9RNT  66
+REMARK   3      SIDE-CHAIN ANGLE                          5.90(6.000)   9RNT  67
+REMARK   4                                                              9RNT  68
+REMARK   4 RESIDUES THR 5, LYS 25, LEU 26, SER 35, LYS 41, VAL 78, AND  9RNT  69
+REMARK   4 ASN 99 ARE IN TWO-FOLD DISORDERED POSITIONS.                 9RNT  70
+SEQRES   1    104  ALA CYS ASP TYR THR CYS GLY SER ASN CYS TYR SER SER  9RNT  71
+SEQRES   2    104  SER ASP VAL SER THR ALA GLN ALA ALA GLY TYR LYS LEU  9RNT  72
+SEQRES   3    104  HIS GLU ASP GLY GLU THR VAL GLY SER ASN SER TYR PRO  9RNT  73
+SEQRES   4    104  HIS LYS TYR ASN ASN TYR GLU GLY PHE ASP PHE SER VAL  9RNT  74
+SEQRES   5    104  SER SER PRO TYR TYR GLU TRP PRO ILE LEU SER SER GLY  9RNT  75
+SEQRES   6    104  ASP VAL TYR SER GLY GLY SER PRO GLY ALA ASP ARG VAL  9RNT  76
+SEQRES   7    104  VAL PHE ASN GLU ASN ASN GLN LEU ALA GLY VAL ILE THR  9RNT  77
+SEQRES   8    104  HIS THR GLY ALA SER GLY ASN ASN PHE VAL GLU CYS THR  9RNT  78
+FTNOTE   1                                                              9RNT  79
+FTNOTE   1 RESIDUES PRO 39 AND PRO 55 ARE CIS PROLINES.                 9RNT  80
+HET     CA    105       1     CALCIUM ++ ION                            9RNT  81
+FORMUL   2   CA    CA1 ++                                               9RNT  82
+FORMUL   3  HOH   *121(H2 O1)                                           9RNT  83
+HELIX    1   A SER     13  ASP     29  1                                9RNT  84
+SHEET    1  A1 2 TYR     4  CYS     6  0                                9RNT  85
+SHEET    2  A1 2 ASN     9  SER    12 -1  O  TYR    11   N  TYR     4   9RNT  86
+SHEET    1  A2 5 PRO    39  TYR    42  0                                9RNT  87
+SHEET    2  A2 5 PRO    55  LEU    62 -1  O  GLU    58   N  HIS    40   9RNT  88
+SHEET    3  A2 5 ASP    76  ASN    81 -1  O  VAL    78   N  TRP    59   9RNT  89
+SHEET    4  A2 5 GLN    85  THR    91 -1  O  ILE    90   N  ARG    77   9RNT  90
+SHEET    5  A2 5 PHE   100  CYS   103 -1  N  VAL   101   O  THR    91   9RNT  91
+TURN     1  B1 CYS     6  ASN     9                                     9RNT  92
+TURN     2  B2 SER    12  ASP    15     N-TERMINUS OF ALPHA-HELIX       9RNT  93
+TURN     3  B3 HIS    27  GLY    30     C-TERMINUS OF ALPHA-HELIX       9RNT  94
+TURN     4  B4 GLY    34  SER    37                                     9RNT  95
+TURN     5  B5 ASN    44  GLY    47                                     9RNT  96
+TURN     6  G1 PHE    48  PHE    50     GAMMA-TURN                      9RNT  97
+TURN     7  B6 LEU    62  GLY    65                                     9RNT  98
+TURN     8  B7 ASN    81  ASN    84                                     9RNT  99
+TURN     9  B8 HIS    92  ALA    95                                     9RNT 100
+TURN    10  B9 SER    96  ASN    99                                     9RNT 101
+SSBOND   1 CYS      2    CYS     10                                     9RNT 102
+SSBOND   2 CYS      6    CYS    103                                     9RNT 103
+CRYST1   48.730   46.390   41.100  90.00  90.00  90.00 P 21 21 21    4  9RNT 104
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 9RNT 105
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 9RNT 106
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 9RNT 107
+SCALE1      0.020521  0.000000  0.000000        0.00000                 9RNT 108
+SCALE2      0.000000  0.021556  0.000000        0.00000                 9RNT 109
+SCALE3      0.000000  0.000000  0.024331        0.00000                 9RNT 110
+ATOM      1  N   ALA     1       6.504  -5.290  16.584  1.00 11.48      9RNT 111
+ATOM      2  CA  ALA     1       5.998  -4.687  15.275  1.00 13.26      9RNT 112
+ATOM      3  C   ALA     1       6.764  -3.378  15.070  1.00 15.56      9RNT 113
+ATOM      4  O   ALA     1       7.333  -2.865  16.013  1.00 13.20      9RNT 114
+ATOM      5  CB  ALA     1       4.532  -4.453  15.647  1.00 18.75      9RNT 115
+ATOM      6  N   CYS     2       6.779  -2.963  13.830  1.00 13.51      9RNT 116
+ATOM      7  CA  CYS     2       7.485  -1.668  13.502  1.00 11.60      9RNT 117
+ATOM      8  C   CYS     2       6.499  -0.533  13.486  1.00 13.58      9RNT 118
+ATOM      9  O   CYS     2       5.412  -0.678  12.882  1.00 16.70      9RNT 119
+ATOM     10  CB  CYS     2       8.038  -1.779  12.085  1.00 14.50      9RNT 120
+ATOM     11  SG  CYS     2       9.066  -3.232  11.817  1.00 14.28      9RNT 121
+ATOM     12  N   ASP     3       6.874   0.591  14.085  1.00 10.48      9RNT 122
+ATOM     13  CA  ASP     3       6.023   1.776  14.014  1.00 11.01      9RNT 123
+ATOM     14  C   ASP     3       6.135   2.413  12.619  1.00 11.71      9RNT 124
+ATOM     15  O   ASP     3       5.245   3.047  12.028  1.00 13.32      9RNT 125
+ATOM     16  CB  ASP     3       6.333   2.779  15.115  1.00 12.65      9RNT 126
+ATOM     17  CG  ASP     3       5.882   2.147  16.449  1.00 16.30      9RNT 127
+ATOM     18  OD1 ASP     3       4.715   1.688  16.553  1.00 20.80      9RNT 128
+ATOM     19  OD2 ASP     3       6.752   2.169  17.306  1.00 17.21      9RNT 129
+ATOM     20  N   TYR     4       7.352   2.274  12.060  1.00 11.18      9RNT 130
+ATOM     21  CA  TYR     4       7.716   2.782  10.707  1.00 10.89      9RNT 131
+ATOM     22  C   TYR     4       8.624   1.722  10.083  1.00  9.59      9RNT 132
+ATOM     23  O   TYR     4       9.549   1.159  10.664  1.00 12.17      9RNT 133
+ATOM     24  CB  TYR     4       8.565   4.077  10.648  1.00 11.82      9RNT 134
+ATOM     25  CG  TYR     4       7.783   5.252  11.298  1.00 13.17      9RNT 135
+ATOM     26  CD1 TYR     4       7.919   5.434  12.657  1.00 13.94      9RNT 136
+ATOM     27  CD2 TYR     4       6.987   6.102  10.582  1.00 15.48      9RNT 137
+ATOM     28  CE1 TYR     4       7.299   6.412  13.423  1.00 12.79      9RNT 138
+ATOM     29  CE2 TYR     4       6.311   7.123  11.298  1.00 14.64      9RNT 139
+ATOM     30  CZ  TYR     4       6.501   7.240  12.662  1.00 12.62      9RNT 140
+ATOM     31  OH  TYR     4       5.824   8.304  13.329  1.00 23.53      9RNT 141
+ATOM     32  N   THR     5       8.318   1.454   8.777  1.00  9.53      9RNT 142
+ATOM     33  CA  THR     5       9.128   0.477   8.010  1.00  9.06      9RNT 143
+ATOM     34  C   THR     5       9.652   1.192   6.734  1.00  8.76      9RNT 144
+ATOM     35  O   THR     5       8.805   1.679   5.987  1.00 10.45      9RNT 145
+ATOM     36  CB ATHR     5       8.295  -0.786   7.598  0.50 10.51      9RNT 146
+ATOM     37  CB BTHR     5       8.338  -0.785   7.522  0.50  8.84      9RNT 147
+ATOM     38  OG1ATHR     5       8.191  -1.556   8.858  0.50 11.07      9RNT 148
+ATOM     39  OG1BTHR     5       7.390  -1.287   8.528  0.50  8.05      9RNT 149
+ATOM     40  CG2ATHR     5       8.800  -1.735   6.504  0.50 10.11      9RNT 150
+ATOM     41  CG2BTHR     5       9.366  -1.870   7.129  0.50 13.39      9RNT 151
+ATOM     42  N   CYS     6      10.952   1.251   6.655  1.00 10.53      9RNT 152
+ATOM     43  CA  CYS     6      11.571   1.938   5.466  1.00  9.00      9RNT 153
+ATOM     44  C   CYS     6      12.352   0.840   4.717  1.00  9.53      9RNT 154
+ATOM     45  O   CYS     6      13.431   0.452   5.136  1.00  8.27      9RNT 155
+ATOM     46  CB  CYS     6      12.634   2.944   5.982  1.00  7.83      9RNT 156
+ATOM     47  SG  CYS     6      11.952   4.311   6.990  1.00  9.64      9RNT 157
+ATOM     48  N   GLY     7      11.675   0.395   3.625  1.00 13.77      9RNT 158
+ATOM     49  CA  GLY     7      12.389  -0.787   2.923  1.00 11.13      9RNT 159
+ATOM     50  C   GLY     7      12.263  -2.037   3.890  1.00 10.78      9RNT 160
+ATOM     51  O   GLY     7      11.138  -2.412   4.215  1.00 16.50      9RNT 161
+ATOM     52  N   SER     8      13.433  -2.410   4.287  1.00 13.26      9RNT 162
+ATOM     53  CA  SER     8      13.363  -3.544   5.241  1.00 15.18      9RNT 163
+ATOM     54  C   SER     8      13.808  -3.089   6.610  1.00 18.05      9RNT 164
+ATOM     55  O   SER     8      13.903  -3.951   7.536  1.00 17.98      9RNT 165
+ATOM     56  CB  SER     8      14.099  -4.797   4.800  1.00 25.01      9RNT 166
+ATOM     57  OG  SER     8      15.370  -4.268   4.564  1.00 26.06      9RNT 167
+ATOM     58  N   ASN     9      14.031  -1.788   6.803  1.00 11.73      9RNT 168
+ATOM     59  CA  ASN     9      14.421  -1.329   8.165  1.00  9.46      9RNT 169
+ATOM     60  C   ASN     9      13.168  -1.039   8.995  1.00 10.46      9RNT 170
+ATOM     61  O   ASN     9      12.202  -0.423   8.537  1.00 13.93      9RNT 171
+ATOM     62  CB  ASN     9      15.239  -0.027   8.066  1.00 11.10      9RNT 172
+ATOM     63  CG  ASN     9      16.578  -0.297   7.422  1.00 10.90      9RNT 173
+ATOM     64  OD1 ASN     9      17.065  -1.481   7.503  1.00 11.73      9RNT 174
+ATOM     65  ND2 ASN     9      17.201   0.681   6.827  1.00 12.53      9RNT 175
+ATOM     66  N   CYS    10      13.277  -1.515  10.272  1.00 10.43      9RNT 176
+ATOM     67  CA  CYS    10      12.132  -1.360  11.182  1.00  9.87      9RNT 177
+ATOM     68  C   CYS    10      12.513  -0.394  12.313  1.00 10.17      9RNT 178
+ATOM     69  O   CYS    10      13.584  -0.573  12.900  1.00 12.76      9RNT 179
+ATOM     70  CB  CYS    10      12.017  -2.807  11.836  1.00 12.36      9RNT 180
+ATOM     71  SG  CYS    10      10.677  -2.959  13.028  1.00 13.05      9RNT 181
+ATOM     72  N   TYR    11      11.647   0.591  12.492  1.00  7.97      9RNT 182
+ATOM     73  CA  TYR    11      11.851   1.575  13.567  1.00  9.27      9RNT 183
+ATOM     74  C   TYR    11      10.636   1.675  14.510  1.00  8.96      9RNT 184
+ATOM     75  O   TYR    11       9.484   1.610  14.090  1.00 10.53      9RNT 185
+ATOM     76  CB  TYR    11      12.050   3.051  12.969  1.00  9.05      9RNT 186
+ATOM     77  CG  TYR    11      13.222   3.050  12.023  1.00  6.41      9RNT 187
+ATOM     78  CD1 TYR    11      14.497   2.956  12.522  1.00  7.60      9RNT 188
+ATOM     79  CD2 TYR    11      13.074   3.209  10.606  1.00  7.89      9RNT 189
+ATOM     80  CE1 TYR    11      15.704   2.944  11.780  1.00  6.97      9RNT 190
+ATOM     81  CE2 TYR    11      14.260   3.230   9.784  1.00  9.79      9RNT 191
+ATOM     82  CZ  TYR    11      15.518   3.101  10.380  1.00  7.63      9RNT 192
+ATOM     83  OH  TYR    11      16.631   3.100   9.623  1.00 10.12      9RNT 193
+ATOM     84  N   SER    12      11.030   1.883  15.778  1.00  9.85      9RNT 194
+ATOM     85  CA  SER    12       9.953   2.112  16.752  1.00  8.78      9RNT 195
+ATOM     86  C   SER    12       9.793   3.639  16.983  1.00 12.01      9RNT 196
+ATOM     87  O   SER    12      10.745   4.355  16.563  1.00 10.11      9RNT 197
+ATOM     88  CB  SER    12      10.369   1.527  18.130  1.00  9.39      9RNT 198
+ATOM     89  OG  SER    12      11.592   2.081  18.615  1.00 11.47      9RNT 199
+ATOM     90  N   SER    13       8.670   4.027  17.592  1.00 10.30      9RNT 200
+ATOM     91  CA  SER    13       8.526   5.479  17.923  1.00 11.49      9RNT 201
+ATOM     92  C   SER    13       9.701   5.894  18.787  1.00  9.00      9RNT 202
+ATOM     93  O   SER    13      10.202   7.084  18.583  1.00 10.96      9RNT 203
+ATOM     94  CB  SER    13       7.259   5.609  18.759  1.00 13.55      9RNT 204
+ATOM     95  OG  SER    13       6.246   5.419  17.750  1.00 26.11      9RNT 205
+ATOM     96  N   SER    14      10.318   5.084  19.702  1.00  6.75      9RNT 206
+ATOM     97  CA  SER    14      11.467   5.511  20.487  1.00  8.67      9RNT 207
+ATOM     98  C   SER    14      12.651   5.855  19.580  1.00 11.73      9RNT 208
+ATOM     99  O   SER    14      13.415   6.810  19.811  1.00 10.53      9RNT 209
+ATOM    100  CB  SER    14      11.948   4.571  21.614  1.00 12.44      9RNT 210
+ATOM    101  OG  SER    14      12.104   3.294  20.983  1.00 15.80      9RNT 211
+ATOM    102  N   ASP    15      12.894   5.042  18.541  1.00  8.04      9RNT 212
+ATOM    103  CA  ASP    15      13.980   5.289  17.617  1.00  7.26      9RNT 213
+ATOM    104  C   ASP    15      13.804   6.707  16.939  1.00  7.03      9RNT 214
+ATOM    105  O   ASP    15      14.804   7.400  16.792  1.00  9.49      9RNT 215
+ATOM    106  CB  ASP    15      14.033   4.228  16.514  1.00  9.30      9RNT 216
+ATOM    107  CG  ASP    15      14.429   2.829  16.958  1.00 10.91      9RNT 217
+ATOM    108  OD1 ASP    15      15.368   2.709  17.705  1.00  9.86      9RNT 218
+ATOM    109  OD2 ASP    15      13.841   1.934  16.328  1.00 10.39      9RNT 219
+ATOM    110  N   VAL    16      12.585   6.955  16.559  1.00  7.72      9RNT 220
+ATOM    111  CA  VAL    16      12.330   8.274  15.850  1.00  7.27      9RNT 221
+ATOM    112  C   VAL    16      12.446   9.395  16.883  1.00  9.82      9RNT 222
+ATOM    113  O   VAL    16      13.107  10.356  16.403  1.00  9.32      9RNT 223
+ATOM    114  CB  VAL    16      10.946   8.060  15.214  1.00  7.70      9RNT 224
+ATOM    115  CG1 VAL    16      10.460   9.484  14.678  1.00  9.73      9RNT 225
+ATOM    116  CG2 VAL    16      10.871   7.105  14.006  1.00 12.11      9RNT 226
+ATOM    117  N   SER    17      11.910   9.284  18.071  1.00  9.82      9RNT 227
+ATOM    118  CA  SER    17      12.027  10.420  19.040  1.00  9.43      9RNT 228
+ATOM    119  C   SER    17      13.469  10.641  19.324  1.00  8.29      9RNT 229
+ATOM    120  O   SER    17      14.021  11.809  19.462  1.00 11.30      9RNT 230
+ATOM    121  CB  SER    17      11.299   9.952  20.336  1.00 12.90      9RNT 231
+ATOM    122  OG  SER    17       9.945   9.955  19.944  1.00 25.74      9RNT 232
+ATOM    123  N   THR    18      14.357   9.685  19.494  1.00  7.69      9RNT 233
+ATOM    124  CA  THR    18      15.782   9.789  19.786  1.00 10.02      9RNT 234
+ATOM    125  C   THR    18      16.414  10.476  18.580  1.00 10.36      9RNT 235
+ATOM    126  O   THR    18      17.200  11.423  18.879  1.00 10.80      9RNT 236
+ATOM    127  CB  THR    18      16.454   8.413  20.035  1.00 12.32      9RNT 237
+ATOM    128  OG1 THR    18      15.881   7.867  21.269  1.00 14.56      9RNT 238
+ATOM    129  CG2 THR    18      17.977   8.494  20.222  1.00 16.17      9RNT 239
+ATOM    130  N   ALA    19      16.195  10.073  17.356  1.00  9.65      9RNT 240
+ATOM    131  CA  ALA    19      16.865  10.735  16.184  1.00 10.65      9RNT 241
+ATOM    132  C   ALA    19      16.382  12.179  16.064  1.00 10.19      9RNT 242
+ATOM    133  O   ALA    19      17.310  12.991  15.918  1.00  9.72      9RNT 243
+ATOM    134  CB  ALA    19      16.527   9.961  14.911  1.00 10.60      9RNT 244
+ATOM    135  N   GLN    20      15.110  12.356  16.230  1.00  9.33      9RNT 245
+ATOM    136  CA  GLN    20      14.654  13.800  16.100  1.00  8.76      9RNT 246
+ATOM    137  C   GLN    20      15.277  14.693  17.162  1.00 10.03      9RNT 247
+ATOM    138  O   GLN    20      15.659  15.817  16.792  1.00 10.18      9RNT 248
+ATOM    139  CB  GLN    20      13.130  13.814  16.188  1.00 10.39      9RNT 249
+ATOM    140  CG  GLN    20      12.538  15.226  16.142  1.00 10.41      9RNT 250
+ATOM    141  CD  GLN    20      11.041  15.178  16.332  1.00 16.47      9RNT 251
+ATOM    142  OE1 GLN    20      10.314  14.159  16.131  1.00 21.69      9RNT 252
+ATOM    143  NE2 GLN    20      10.429  16.319  16.726  1.00 15.16      9RNT 253
+ATOM    144  N   ALA    21      15.367  14.181  18.397  1.00  9.82      9RNT 254
+ATOM    145  CA  ALA    21      15.975  15.106  19.399  1.00 10.21      9RNT 255
+ATOM    146  C   ALA    21      17.408  15.527  19.095  1.00 12.37      9RNT 256
+ATOM    147  O   ALA    21      17.869  16.688  19.289  1.00 12.70      9RNT 257
+ATOM    148  CB  ALA    21      15.868  14.386  20.731  1.00 10.50      9RNT 258
+ATOM    149  N   ALA    22      18.163  14.550  18.621  1.00  8.74      9RNT 259
+ATOM    150  CA  ALA    22      19.574  14.774  18.290  1.00  8.71      9RNT 260
+ATOM    151  C   ALA    22      19.622  15.782  17.127  1.00  8.03      9RNT 261
+ATOM    152  O   ALA    22      20.482  16.705  17.128  1.00  9.62      9RNT 262
+ATOM    153  CB  ALA    22      20.196  13.452  17.917  1.00 10.69      9RNT 263
+ATOM    154  N   GLY    23      18.853  15.590  16.068  1.00  6.51      9RNT 264
+ATOM    155  CA  GLY    23      18.852  16.460  14.848  1.00  7.31      9RNT 265
+ATOM    156  C   GLY    23      18.346  17.890  15.248  1.00  8.35      9RNT 266
+ATOM    157  O   GLY    23      18.990  18.850  14.748  1.00  8.30      9RNT 267
+ATOM    158  N   TYR    24      17.321  17.936  16.093  1.00  7.72      9RNT 268
+ATOM    159  CA  TYR    24      16.788  19.294  16.444  1.00  7.67      9RNT 269
+ATOM    160  C   TYR    24      17.835  19.992  17.263  1.00  8.54      9RNT 270
+ATOM    161  O   TYR    24      18.048  21.258  17.077  1.00  8.31      9RNT 271
+ATOM    162  CB  TYR    24      15.408  19.247  17.181  1.00  8.41      9RNT 272
+ATOM    163  CG  TYR    24      14.849  20.684  17.106  1.00  7.35      9RNT 273
+ATOM    164  CD1 TYR    24      14.215  21.025  15.958  1.00  9.64      9RNT 274
+ATOM    165  CD2 TYR    24      15.037  21.531  18.248  1.00  9.47      9RNT 275
+ATOM    166  CE1 TYR    24      13.704  22.365  15.788  1.00  8.47      9RNT 276
+ATOM    167  CE2 TYR    24      14.556  22.820  18.042  1.00 10.88      9RNT 277
+ATOM    168  CZ  TYR    24      13.925  23.210  16.887  1.00  8.76      9RNT 278
+ATOM    169  OH  TYR    24      13.481  24.530  16.855  1.00 10.45      9RNT 279
+ATOM    170  N   LYS    25      18.568  19.404  18.163  1.00  8.16      9RNT 280
+ATOM    171  CA  LYS    25      19.587  20.086  18.977  1.00  8.04      9RNT 281
+ATOM    172  C   LYS    25      20.657  20.643  18.024  1.00  9.21      9RNT 282
+ATOM    173  O   LYS    25      21.132  21.793  18.253  1.00  9.07      9RNT 283
+ATOM    174  CB ALYS    25      20.271  19.145  19.965  0.50 10.29      9RNT 284
+ATOM    175  CB BLYS    25      20.232  19.112  19.962  0.50 11.36      9RNT 285
+ATOM    176  CG ALYS    25      21.501  19.605  20.757  0.50 15.59      9RNT 286
+ATOM    177  CG BLYS    25      21.000  19.930  21.015  0.50 19.87      9RNT 287
+ATOM    178  CD ALYS    25      21.475  21.016  21.319  0.50 20.15      9RNT 288
+ATOM    179  CD BLYS    25      22.066  19.120  21.731  0.50 20.29      9RNT 289
+ATOM    180  CE ALYS    25      20.461  21.583  22.262  0.50 33.32      9RNT 290
+ATOM    181  CE BLYS    25      22.961  19.926  22.685  0.50 19.71      9RNT 291
+ATOM    182  NZ ALYS    25      20.304  23.079  22.185  0.50 25.98      9RNT 292
+ATOM    183  NZ BLYS    25      23.071  21.380  22.382  0.50 24.82      9RNT 293
+ATOM    184  N   LEU    26      21.107  19.913  17.013  1.00  6.92      9RNT 294
+ATOM    185  CA  LEU    26      22.101  20.447  16.095  1.00  6.92      9RNT 295
+ATOM    186  C   LEU    26      21.480  21.645  15.367  1.00  7.97      9RNT 296
+ATOM    187  O   LEU    26      22.308  22.594  15.128  1.00 10.00      9RNT 297
+ATOM    188  CB  LEU    26      22.504  19.395  15.058  1.00  8.41      9RNT 298
+ATOM    189  CG  LEU    26      23.749  18.590  15.341  1.00 14.29      9RNT 299
+ATOM    190  CD1ALEU    26      23.853  17.896  16.675  0.30 17.89      9RNT 300
+ATOM    191  CD1BLEU    26      24.847  18.950  16.287  0.70 16.25      9RNT 301
+ATOM    192  CD2ALEU    26      24.008  17.510  14.235  0.30  4.56      9RNT 302
+ATOM    193  CD2BLEU    26      23.419  17.150  14.962  0.70 11.89      9RNT 303
+ATOM    194  N   HIS    27      20.193  21.649  15.026  1.00  7.59      9RNT 304
+ATOM    195  CA  HIS    27      19.577  22.822  14.327  1.00  6.57      9RNT 305
+ATOM    196  C   HIS    27      19.664  24.021  15.286  1.00  9.90      9RNT 306
+ATOM    197  O   HIS    27      19.978  25.140  14.786  1.00  8.99      9RNT 307
+ATOM    198  CB  HIS    27      18.149  22.391  13.988  1.00  8.66      9RNT 308
+ATOM    199  CG  HIS    27      17.371  23.553  13.347  1.00  7.98      9RNT 309
+ATOM    200  ND1 HIS    27      17.805  24.013  12.099  1.00 10.95      9RNT 310
+ATOM    201  CD2 HIS    27      16.313  24.224  13.765  1.00 14.99      9RNT 311
+ATOM    202  CE1 HIS    27      17.027  25.043  11.822  1.00 10.70      9RNT 312
+ATOM    203  NE2 HIS    27      16.108  25.171  12.766  1.00  9.66      9RNT 313
+ATOM    204  N   GLU    28      19.323  23.832  16.527  1.00  9.77      9RNT 314
+ATOM    205  CA  GLU    28      19.394  24.992  17.473  1.00  8.38      9RNT 315
+ATOM    206  C   GLU    28      20.818  25.440  17.608  1.00  9.06      9RNT 316
+ATOM    207  O   GLU    28      21.050  26.702  17.757  1.00  9.68      9RNT 317
+ATOM    208  CB  GLU    28      18.998  24.500  18.883  1.00  9.90      9RNT 318
+ATOM    209  CG  GLU    28      17.531  24.181  18.918  1.00  8.49      9RNT 319
+ATOM    210  CD  GLU    28      17.069  23.741  20.332  1.00 13.58      9RNT 320
+ATOM    211  OE1 GLU    28      17.915  22.933  20.919  1.00 15.53      9RNT 321
+ATOM    212  OE2 GLU    28      15.981  24.098  20.878  1.00 13.14      9RNT 322
+ATOM    213  N   ASP    29      21.824  24.557  17.602  1.00  8.53      9RNT 323
+ATOM    214  CA  ASP    29      23.223  24.971  17.749  1.00  6.79      9RNT 324
+ATOM    215  C   ASP    29      23.840  25.521  16.469  1.00  9.21      9RNT 325
+ATOM    216  O   ASP    29      25.040  25.934  16.546  1.00 12.13      9RNT 326
+ATOM    217  CB  ASP    29      23.972  23.773  18.268  1.00 10.02      9RNT 327
+ATOM    218  CG  ASP    29      23.618  23.444  19.728  1.00 16.97      9RNT 328
+ATOM    219  OD1 ASP    29      22.938  24.155  20.454  1.00 22.37      9RNT 329
+ATOM    220  OD2 ASP    29      24.163  22.345  20.014  1.00 21.98      9RNT 330
+ATOM    221  N   GLY    30      23.139  25.499  15.373  1.00  8.66      9RNT 331
+ATOM    222  CA  GLY    30      23.671  25.956  14.116  1.00  7.50      9RNT 332
+ATOM    223  C   GLY    30      24.860  25.106  13.627  1.00 11.76      9RNT 333
+ATOM    224  O   GLY    30      25.766  25.624  12.973  1.00 11.48      9RNT 334
+ATOM    225  N   GLU    31      24.798  23.810  13.943  1.00  9.15      9RNT 335
+ATOM    226  CA  GLU    31      25.823  22.818  13.626  1.00  8.62      9RNT 336
+ATOM    227  C   GLU    31      25.344  21.700  12.680  1.00  9.93      9RNT 337
+ATOM    228  O   GLU    31      24.131  21.510  12.644  1.00  9.77      9RNT 338
+ATOM    229  CB  GLU    31      26.237  22.116  14.915  1.00 13.32      9RNT 339
+ATOM    230  CG  GLU    31      27.135  22.955  15.758  1.00 31.53      9RNT 340
+ATOM    231  CD  GLU    31      28.584  22.987  15.341  1.00 36.36      9RNT 341
+ATOM    232  OE1 GLU    31      28.938  22.373  14.318  1.00 35.46      9RNT 342
+ATOM    233  OE2 GLU    31      29.216  23.657  16.135  1.00 38.98      9RNT 343
+ATOM    234  N   THR    32      26.360  21.120  12.035  1.00  7.26      9RNT 344
+ATOM    235  CA  THR    32      25.950  19.989  11.167  1.00  7.60      9RNT 345
+ATOM    236  C   THR    32      27.049  18.949  11.330  1.00  8.71      9RNT 346
+ATOM    237  O   THR    32      28.173  19.240  11.795  1.00  9.89      9RNT 347
+ATOM    238  CB  THR    32      25.822  20.368   9.658  1.00  9.07      9RNT 348
+ATOM    239  OG1 THR    32      27.160  20.873   9.265  1.00 10.01      9RNT 349
+ATOM    240  CG2 THR    32      24.714  21.353   9.355  1.00  9.49      9RNT 350
+ATOM    241  N   VAL    33      26.656  17.711  10.883  1.00  8.84      9RNT 351
+ATOM    242  CA  VAL    33      27.685  16.593  10.912  1.00 10.18      9RNT 352
+ATOM    243  C   VAL    33      27.546  15.855   9.572  1.00  7.63      9RNT 353
+ATOM    244  O   VAL    33      26.514  15.867   8.955  1.00 10.30      9RNT 354
+ATOM    245  CB  VAL    33      27.487  15.616  12.070  1.00 12.68      9RNT 355
+ATOM    246  CG1 VAL    33      27.750  16.343  13.414  1.00 16.67      9RNT 356
+ATOM    247  CG2 VAL    33      26.116  15.040  12.139  1.00 11.36      9RNT 357
+ATOM    248  N   GLY    34      28.705  15.197   9.291  1.00 11.09      9RNT 358
+ATOM    249  CA  GLY    34      28.622  14.403   8.026  1.00 12.94      9RNT 359
+ATOM    250  C   GLY    34      29.080  15.195   6.827  1.00 16.72      9RNT 360
+ATOM    251  O   GLY    34      29.008  16.448   6.833  1.00 13.94      9RNT 361
+ATOM    252  N   SER    35      29.545  14.453   5.806  1.00 13.25      9RNT 362
+ATOM    253  CA  SER    35      30.006  15.137   4.559  1.00 13.60      9RNT 363
+ATOM    254  C   SER    35      28.916  15.858   3.884  1.00 17.03      9RNT 364
+ATOM    255  O   SER    35      29.197  16.828   3.136  1.00 20.10      9RNT 365
+ATOM    256  CB  SER    35      30.472  14.030   3.595  1.00 17.31      9RNT 366
+ATOM    257  OG ASER    35      29.336  13.281   3.090  0.50 15.43      9RNT 367
+ATOM    258  OG BSER    35      31.683  13.624   4.188  0.50 16.14      9RNT 368
+ATOM    259  N   ASN    36      27.648  15.464   4.019  1.00 12.71      9RNT 369
+ATOM    260  CA  ASN    36      26.525  16.084   3.393  1.00 11.60      9RNT 370
+ATOM    261  C   ASN    36      25.751  17.018   4.380  1.00 10.59      9RNT 371
+ATOM    262  O   ASN    36      24.599  17.382   4.122  1.00 13.43      9RNT 372
+ATOM    263  CB  ASN    36      25.620  15.074   2.648  1.00 19.13      9RNT 373
+ATOM    264  CG  ASN    36      26.338  14.627   1.351  1.00 36.05      9RNT 374
+ATOM    265  OD1 ASN    36      26.984  13.571   1.227  1.00 39.26      9RNT 375
+ATOM    266  ND2 ASN    36      26.286  15.451   0.301  1.00 38.82      9RNT 376
+ATOM    267  N   SER    37      26.458  17.348   5.425  1.00 11.26      9RNT 377
+ATOM    268  CA  SER    37      25.965  18.362   6.385  1.00 13.22      9RNT 378
+ATOM    269  C   SER    37      24.524  18.333   6.782  1.00 11.48      9RNT 379
+ATOM    270  O   SER    37      23.569  19.047   6.407  1.00 13.24      9RNT 380
+ATOM    271  CB  SER    37      26.076  19.741   5.551  1.00 13.32      9RNT 381
+ATOM    272  OG  SER    37      27.483  19.897   5.362  1.00 15.69      9RNT 382
+ATOM    273  N   TYR    38      24.328  17.331   7.675  1.00  9.03      9RNT 383
+ATOM    274  CA  TYR    38      22.981  17.156   8.246  1.00  7.45      9RNT 384
+ATOM    275  C   TYR    38      22.900  17.738   9.663  1.00  7.49      9RNT 385
+ATOM    276  O   TYR    38      23.914  17.741  10.392  1.00  8.37      9RNT 386
+ATOM    277  CB  TYR    38      22.759  15.617   8.407  1.00  9.33      9RNT 387
+ATOM    278  CG  TYR    38      22.470  14.942   7.051  1.00  7.35      9RNT 388
+ATOM    279  CD1 TYR    38      21.253  15.075   6.441  1.00  8.31      9RNT 389
+ATOM    280  CD2 TYR    38      23.547  14.236   6.506  1.00 10.51      9RNT 390
+ATOM    281  CE1 TYR    38      21.052  14.402   5.196  1.00 10.54      9RNT 391
+ATOM    282  CE2 TYR    38      23.314  13.605   5.253  1.00 11.91      9RNT 392
+ATOM    283  CZ  TYR    38      22.110  13.727   4.648  1.00 13.16      9RNT 393
+ATOM    284  OH  TYR    38      21.822  13.125   3.402  1.00 14.60      9RNT 394
+ATOM    285  N   PRO    39      21.756  18.236  10.080  1.00  7.71   1  9RNT 395
+ATOM    286  CA  PRO    39      20.496  18.338   9.366  1.00  8.72   1  9RNT 396
+ATOM    287  C   PRO    39      20.546  19.480   8.326  1.00 10.79   1  9RNT 397
+ATOM    288  O   PRO    39      21.372  20.381   8.473  1.00 10.93   1  9RNT 398
+ATOM    289  CB  PRO    39      19.418  18.724  10.427  1.00  9.32   1  9RNT 399
+ATOM    290  CG  PRO    39      20.227  19.347  11.551  1.00 10.33   1  9RNT 400
+ATOM    291  CD  PRO    39      21.653  18.834  11.487  1.00  8.75   1  9RNT 401
+ATOM    292  N   HIS    40      19.700  19.352   7.317  1.00  9.39      9RNT 402
+ATOM    293  CA  HIS    40      19.659  20.458   6.314  1.00 10.37      9RNT 403
+ATOM    294  C   HIS    40      18.241  20.508   5.843  1.00 12.18      9RNT 404
+ATOM    295  O   HIS    40      17.423  19.576   6.103  1.00 11.27      9RNT 405
+ATOM    296  CB  HIS    40      20.687  20.258   5.242  1.00 11.16      9RNT 406
+ATOM    297  CG  HIS    40      20.590  19.028   4.398  1.00 11.75      9RNT 407
+ATOM    298  ND1 HIS    40      21.750  18.271   4.299  1.00 14.89      9RNT 408
+ATOM    299  CD2 HIS    40      19.579  18.510   3.630  1.00 15.39      9RNT 409
+ATOM    300  CE1 HIS    40      21.403  17.303   3.453  1.00 16.80      9RNT 410
+ATOM    301  NE2 HIS    40      20.150  17.378   3.075  1.00 15.34      9RNT 411
+ATOM    302  N   LYS    41      17.894  21.599   5.139  1.00 12.23      9RNT 412
+ATOM    303  CA  LYS    41      16.520  21.782   4.700  1.00 10.80      9RNT 413
+ATOM    304  C   LYS    41      16.045  20.662   3.780  1.00  8.07      9RNT 414
+ATOM    305  O   LYS    41      16.767  20.099   2.962  1.00 11.51      9RNT 415
+ATOM    306  CB  LYS    41      16.568  23.077   3.823  1.00 14.22      9RNT 416
+ATOM    307  CG ALYS    41      15.131  23.450   3.415  0.50 20.72      9RNT 417
+ATOM    308  CG BLYS    41      16.426  24.290   4.739  0.50 18.76      9RNT 418
+ATOM    309  CD ALYS    41      15.000  24.683   2.541  0.50 28.02      9RNT 419
+ATOM    310  CD BLYS    41      14.991  24.793   4.735  0.50 28.73      9RNT 420
+ATOM    311  CE  LYS    41      14.572  25.703   3.572  1.00 33.90      9RNT 421
+ATOM    312  NZ  LYS    41      13.099  25.879   3.623  1.00 33.15      9RNT 422
+ATOM    313  N   TYR    42      14.808  20.331   3.958  1.00 10.73      9RNT 423
+ATOM    314  CA  TYR    42      14.050  19.357   3.185  1.00  9.90      9RNT 424
+ATOM    315  C   TYR    42      13.006  20.182   2.365  1.00  9.46      9RNT 425
+ATOM    316  O   TYR    42      12.260  20.870   3.027  1.00 10.56      9RNT 426
+ATOM    317  CB  TYR    42      13.362  18.254   4.063  1.00  9.99      9RNT 427
+ATOM    318  CG  TYR    42      12.374  17.402   3.255  1.00 10.40      9RNT 428
+ATOM    319  CD1 TYR    42      12.856  16.418   2.403  1.00 15.20      9RNT 429
+ATOM    320  CD2 TYR    42      11.018  17.690   3.407  1.00 13.69      9RNT 430
+ATOM    321  CE1 TYR    42      11.920  15.702   1.637  1.00 13.14      9RNT 431
+ATOM    322  CE2 TYR    42      10.067  17.005   2.659  1.00 17.20      9RNT 432
+ATOM    323  CZ  TYR    42      10.588  16.020   1.827  1.00 13.05      9RNT 433
+ATOM    324  OH  TYR    42       9.634  15.327   1.054  1.00 16.87      9RNT 434
+ATOM    325  N   ASN    43      12.928  19.972   1.071  1.00 10.79      9RNT 435
+ATOM    326  CA  ASN    43      11.945  20.619   0.207  1.00  9.65      9RNT 436
+ATOM    327  C   ASN    43      10.904  19.525  -0.161  1.00 10.21      9RNT 437
+ATOM    328  O   ASN    43      11.364  18.479  -0.682  1.00 11.57      9RNT 438
+ATOM    329  CB  ASN    43      12.636  21.269  -1.019  1.00 14.05      9RNT 439
+ATOM    330  CG  ASN    43      13.458  22.440  -0.458  1.00 16.46      9RNT 440
+ATOM    331  OD1 ASN    43      12.884  23.385   0.132  1.00 19.26      9RNT 441
+ATOM    332  ND2 ASN    43      14.749  22.336  -0.620  1.00 18.62      9RNT 442
+ATOM    333  N   ASN    44       9.651  19.801   0.079  1.00  7.79      9RNT 443
+ATOM    334  CA  ASN    44       8.622  18.777  -0.198  1.00  9.06      9RNT 444
+ATOM    335  C   ASN    44       8.050  18.696  -1.624  1.00  8.29      9RNT 445
+ATOM    336  O   ASN    44       6.831  18.696  -1.790  1.00 13.07      9RNT 446
+ATOM    337  CB  ASN    44       7.554  18.934   0.919  1.00  9.02      9RNT 447
+ATOM    338  CG  ASN    44       6.519  17.777   1.060  1.00 10.88      9RNT 448
+ATOM    339  OD1 ASN    44       7.000  16.646   0.676  1.00 12.58      9RNT 449
+ATOM    340  ND2 ASN    44       5.371  18.027   1.519  1.00 11.58      9RNT 450
+ATOM    341  N   TYR    45       8.983  18.604  -2.563  1.00 10.21      9RNT 451
+ATOM    342  CA  TYR    45       8.510  18.500  -3.969  1.00 11.56      9RNT 452
+ATOM    343  C   TYR    45       7.725  17.211  -4.235  1.00 12.15      9RNT 453
+ATOM    344  O   TYR    45       6.960  17.262  -5.209  1.00 13.48      9RNT 454
+ATOM    345  CB  TYR    45       9.651  18.813  -4.903  1.00 12.14      9RNT 455
+ATOM    346  CG  TYR    45      10.793  17.866  -4.826  1.00 12.45      9RNT 456
+ATOM    347  CD1 TYR    45      10.730  16.657  -5.549  1.00 20.64      9RNT 457
+ATOM    348  CD2 TYR    45      11.981  18.223  -4.181  1.00 13.85      9RNT 458
+ATOM    349  CE1 TYR    45      11.839  15.809  -5.468  1.00 18.84      9RNT 459
+ATOM    350  CE2 TYR    45      13.101  17.417  -4.119  1.00 19.43      9RNT 460
+ATOM    351  CZ  TYR    45      12.974  16.175  -4.774  1.00 25.07      9RNT 461
+ATOM    352  OH  TYR    45      13.993  15.248  -4.820  1.00 35.80      9RNT 462
+ATOM    353  N   GLU    46       7.923  16.144  -3.452  1.00  8.57      9RNT 463
+ATOM    354  CA  GLU    46       7.057  14.973  -3.766  1.00 12.25      9RNT 464
+ATOM    355  C   GLU    46       5.663  15.180  -3.266  1.00 11.54      9RNT 465
+ATOM    356  O   GLU    46       4.764  14.320  -3.578  1.00 12.77      9RNT 466
+ATOM    357  CB  GLU    46       7.536  13.772  -2.928  1.00 14.12      9RNT 467
+ATOM    358  CG  GLU    46       8.908  13.284  -3.310  1.00 16.80      9RNT 468
+ATOM    359  CD  GLU    46       9.016  12.699  -4.706  1.00 22.83      9RNT 469
+ATOM    360  OE1 GLU    46       8.209  12.570  -5.603  1.00 26.44      9RNT 470
+ATOM    361  OE2 GLU    46      10.160  12.294  -4.851  1.00 25.00      9RNT 471
+ATOM    362  N   GLY    47       5.383  16.218  -2.461  1.00  8.94      9RNT 472
+ATOM    363  CA  GLY    47       4.025  16.462  -2.004  1.00 11.40      9RNT 473
+ATOM    364  C   GLY    47       3.518  15.515  -0.933  1.00 12.11      9RNT 474
+ATOM    365  O   GLY    47       2.312  15.347  -0.898  1.00 13.92      9RNT 475
+ATOM    366  N   PHE    48       4.393  15.013  -0.034  1.00 12.12      9RNT 476
+ATOM    367  CA  PHE    48       3.834  14.153   1.037  1.00 10.92      9RNT 477
+ATOM    368  C   PHE    48       2.882  15.051   1.887  1.00 13.17      9RNT 478
+ATOM    369  O   PHE    48       3.137  16.250   2.050  1.00 11.80      9RNT 479
+ATOM    370  CB  PHE    48       4.984  13.626   1.815  1.00  9.81      9RNT 480
+ATOM    371  CG  PHE    48       6.048  12.826   1.092  1.00  9.42      9RNT 481
+ATOM    372  CD1 PHE    48       5.665  11.835   0.167  1.00 13.50      9RNT 482
+ATOM    373  CD2 PHE    48       7.402  13.014   1.331  1.00  9.81      9RNT 483
+ATOM    374  CE1 PHE    48       6.659  11.103  -0.445  1.00 12.25      9RNT 484
+ATOM    375  CE2 PHE    48       8.377  12.262   0.727  1.00 12.01      9RNT 485
+ATOM    376  CZ  PHE    48       8.001  11.304  -0.209  1.00 12.89      9RNT 486
+ATOM    377  N   ASP    49       1.839  14.332   2.276  1.00 13.22      9RNT 487
+ATOM    378  CA  ASP    49       0.785  15.073   3.053  1.00 17.30      9RNT 488
+ATOM    379  C   ASP    49       1.169  15.224   4.493  1.00 17.15      9RNT 489
+ATOM    380  O   ASP    49       0.635  14.534   5.371  1.00 25.06      9RNT 490
+ATOM    381  CB  ASP    49      -0.573  14.382   2.772  1.00 17.46      9RNT 491
+ATOM    382  CG  ASP    49      -1.791  15.056   3.400  1.00 33.39      9RNT 492
+ATOM    383  OD1 ASP    49      -1.777  16.311   3.361  1.00 37.02      9RNT 493
+ATOM    384  OD2 ASP    49      -2.718  14.382   3.916  1.00 42.06      9RNT 494
+ATOM    385  N   PHE    50       2.112  16.136   4.758  1.00 20.59      9RNT 495
+ATOM    386  CA  PHE    50       2.474  16.311   6.176  1.00 19.72      9RNT 496
+ATOM    387  C   PHE    50       1.441  17.282   6.805  1.00 23.90      9RNT 497
+ATOM    388  O   PHE    50       0.992  18.232   6.147  1.00 24.62      9RNT 498
+ATOM    389  CB  PHE    50       3.855  16.895   6.176  1.00 18.48      9RNT 499
+ATOM    390  CG  PHE    50       5.022  16.097   5.720  1.00 18.66      9RNT 500
+ATOM    391  CD1 PHE    50       5.178  14.702   5.817  1.00 19.52      9RNT 501
+ATOM    392  CD2 PHE    50       6.056  16.859   5.181  1.00 15.42      9RNT 502
+ATOM    393  CE1 PHE    50       6.349  14.024   5.395  1.00 15.25      9RNT 503
+ATOM    394  CE2 PHE    50       7.256  16.240   4.741  1.00 20.49      9RNT 504
+ATOM    395  CZ  PHE    50       7.318  14.854   4.872  1.00 19.81      9RNT 505
+ATOM    396  N   SER    51       1.117  17.005   8.037  1.00 21.50      9RNT 506
+ATOM    397  CA  SER    51       0.137  17.861   8.741  1.00 27.33      9RNT 507
+ATOM    398  C   SER    51       0.824  18.968   9.545  1.00 25.76      9RNT 508
+ATOM    399  O   SER    51       0.095  19.715  10.229  1.00 26.70      9RNT 509
+ATOM    400  CB  SER    51      -0.658  16.980   9.689  1.00 29.90      9RNT 510
+ATOM    401  OG  SER    51       0.271  16.424  10.619  1.00 39.64      9RNT 511
+ATOM    402  N   VAL    52       2.112  19.146   9.529  1.00 23.29      9RNT 512
+ATOM    403  CA  VAL    52       2.835  20.200  10.275  1.00 22.65      9RNT 513
+ATOM    404  C   VAL    52       3.393  21.094   9.223  1.00 21.74      9RNT 514
+ATOM    405  O   VAL    52       3.727  20.657   8.104  1.00 20.95      9RNT 515
+ATOM    406  CB  VAL    52       3.701  19.219  11.093  1.00 25.53      9RNT 516
+ATOM    407  CG1 VAL    52       5.130  19.124  10.602  1.00 18.79      9RNT 517
+ATOM    408  CG2 VAL    52       3.220  19.162  12.505  1.00 22.89      9RNT 518
+ATOM    409  N   SER    53       3.557  22.375   9.501  1.00 21.53      9RNT 519
+ATOM    410  CA  SER    53       4.080  23.324   8.496  1.00 23.15      9RNT 520
+ATOM    411  C   SER    53       5.589  23.349   8.321  1.00 20.38      9RNT 521
+ATOM    412  O   SER    53       6.229  22.888   9.276  1.00 20.11      9RNT 522
+ATOM    413  CB  SER    53       3.718  24.777   8.878  1.00 33.54      9RNT 523
+ATOM    414  OG  SER    53       4.020  24.773  10.270  1.00 42.41      9RNT 524
+ATOM    415  N   SER    54       6.095  23.838   7.236  1.00 20.35      9RNT 525
+ATOM    416  CA  SER    54       7.521  23.981   6.914  1.00 19.05      9RNT 526
+ATOM    417  C   SER    54       7.982  25.272   7.633  1.00 18.70      9RNT 527
+ATOM    418  O   SER    54       7.125  25.940   8.215  1.00 21.95      9RNT 528
+ATOM    419  CB  SER    54       7.624  24.054   5.415  1.00 24.52      9RNT 529
+ATOM    420  OG  SER    54       7.095  25.281   4.947  1.00 27.04      9RNT 530
+ATOM    421  N   PRO    55       9.250  25.609   7.565  1.00 16.65   1  9RNT 531
+ATOM    422  CA  PRO    55      10.322  24.881   6.934  1.00 14.55   1  9RNT 532
+ATOM    423  C   PRO    55      10.510  23.456   7.597  1.00 10.63   1  9RNT 533
+ATOM    424  O   PRO    55      10.211  23.284   8.770  1.00 11.76   1  9RNT 534
+ATOM    425  CB  PRO    55      11.553  25.672   7.380  1.00 17.19   1  9RNT 535
+ATOM    426  CG  PRO    55      11.010  27.069   7.727  1.00 17.63   1  9RNT 536
+ATOM    427  CD  PRO    55       9.645  26.865   8.272  1.00 16.06   1  9RNT 537
+ATOM    428  N   TYR    56      11.050  22.610   6.735  1.00 10.98      9RNT 538
+ATOM    429  CA  TYR    56      11.345  21.191   7.150  1.00  8.66      9RNT 539
+ATOM    430  C   TYR    56      12.818  20.958   7.019  1.00  8.96      9RNT 540
+ATOM    431  O   TYR    56      13.535  21.572   6.199  1.00  9.74      9RNT 541
+ATOM    432  CB  TYR    56      10.617  20.187   6.249  1.00 10.94      9RNT 542
+ATOM    433  CG  TYR    56       9.125  20.311   6.114  1.00 11.65      9RNT 543
+ATOM    434  CD1 TYR    56       8.298  20.188   7.178  1.00 11.68      9RNT 544
+ATOM    435  CD2 TYR    56       8.610  20.542   4.817  1.00 16.64      9RNT 545
+ATOM    436  CE1 TYR    56       6.889  20.286   7.085  1.00 13.32      9RNT 546
+ATOM    437  CE2 TYR    56       7.210  20.636   4.668  1.00 18.18      9RNT 547
+ATOM    438  CZ  TYR    56       6.448  20.530   5.778  1.00 16.94      9RNT 548
+ATOM    439  OH  TYR    56       5.067  20.645   5.606  1.00 24.15      9RNT 549
+ATOM    440  N   TYR    57      13.261  19.982   7.837  1.00  7.44      9RNT 550
+ATOM    441  CA  TYR    57      14.716  19.640   7.859  1.00  9.78      9RNT 551
+ATOM    442  C   TYR    57      14.752  18.100   7.893  1.00 11.35      9RNT 552
+ATOM    443  O   TYR    57      13.838  17.534   8.501  1.00 12.47      9RNT 553
+ATOM    444  CB  TYR    57      15.349  20.185   9.186  1.00 11.78      9RNT 554
+ATOM    445  CG  TYR    57      15.307  21.708   9.205  1.00  9.95      9RNT 555
+ATOM    446  CD1 TYR    57      16.289  22.416   8.522  1.00 13.75      9RNT 556
+ATOM    447  CD2 TYR    57      14.247  22.353   9.827  1.00 12.14      9RNT 557
+ATOM    448  CE1 TYR    57      16.224  23.829   8.482  1.00 12.57      9RNT 558
+ATOM    449  CE2 TYR    57      14.182  23.780   9.849  1.00  8.20      9RNT 559
+ATOM    450  CZ  TYR    57      15.142  24.414   9.136  1.00 11.91      9RNT 560
+ATOM    451  OH  TYR    57      15.023  25.814   9.193  1.00 17.41      9RNT 561
+ATOM    452  N   GLU    58      15.695  17.621   7.193  1.00  9.52      9RNT 562
+ATOM    453  CA  GLU    58      15.899  16.138   7.168  1.00  9.32      9RNT 563
+ATOM    454  C   GLU    58      17.136  15.796   7.981  1.00  8.68      9RNT 564
+ATOM    455  O   GLU    58      18.183  16.500   8.015  1.00  7.49      9RNT 565
+ATOM    456  CB  GLU    58      16.076  15.531   5.789  1.00  9.79      9RNT 566
+ATOM    457  CG  GLU    58      17.116  16.038   4.917  1.00 11.41      9RNT 567
+ATOM    458  CD  GLU    58      17.511  15.222   3.699  1.00 14.70      9RNT 568
+ATOM    459  OE1 GLU    58      17.728  14.034   3.749  1.00 18.06      9RNT 569
+ATOM    460  OE2 GLU    58      17.660  15.745   2.607  1.00 17.80      9RNT 570
+ATOM    461  N   TRP    59      17.066  14.609   8.665  1.00  6.53      9RNT 571
+ATOM    462  CA  TRP    59      18.217  14.161   9.498  1.00  7.42      9RNT 572
+ATOM    463  C   TRP    59      18.268  12.615   9.408  1.00  7.23      9RNT 573
+ATOM    464  O   TRP    59      17.193  12.041   9.550  1.00  6.27      9RNT 574
+ATOM    465  CB  TRP    59      17.827  14.578  10.943  1.00  7.44      9RNT 575
+ATOM    466  CG  TRP    59      18.720  13.986  12.002  1.00  5.53      9RNT 576
+ATOM    467  CD1 TRP    59      18.288  12.997  12.941  1.00  8.11      9RNT 577
+ATOM    468  CD2 TRP    59      20.073  14.264  12.289  1.00  6.77      9RNT 578
+ATOM    469  NE1 TRP    59      19.341  12.683  13.720  1.00  8.07      9RNT 579
+ATOM    470  CE2 TRP    59      20.473  13.408  13.368  1.00  7.88      9RNT 580
+ATOM    471  CE3 TRP    59      21.037  15.119  11.740  1.00  7.83      9RNT 581
+ATOM    472  CZ2 TRP    59      21.737  13.397  13.834  1.00  8.32      9RNT 582
+ATOM    473  CZ3 TRP    59      22.319  15.068  12.266  1.00 10.33      9RNT 583
+ATOM    474  CH2 TRP    59      22.705  14.214  13.343  1.00 11.01      9RNT 584
+ATOM    475  N   PRO    60      19.371  11.993   9.313  1.00  7.59      9RNT 585
+ATOM    476  CA  PRO    60      19.364  10.507   9.175  1.00  6.45      9RNT 586
+ATOM    477  C   PRO    60      18.962   9.808  10.441  1.00  9.38      9RNT 587
+ATOM    478  O   PRO    60      19.328  10.213  11.542  1.00  9.22      9RNT 588
+ATOM    479  CB  PRO    60      20.861  10.221   8.951  1.00  7.77      9RNT 589
+ATOM    480  CG  PRO    60      21.461  11.483   8.331  1.00  8.36      9RNT 590
+ATOM    481  CD  PRO    60      20.711  12.566   9.109  1.00  7.30      9RNT 591
+ATOM    482  N   ILE    61      18.233   8.727  10.167  1.00  7.82      9RNT 592
+ATOM    483  CA  ILE    61      17.825   7.771  11.240  1.00  6.24      9RNT 593
+ATOM    484  C   ILE    61      18.561   6.472  10.762  1.00  7.27      9RNT 594
+ATOM    485  O   ILE    61      18.344   6.142   9.593  1.00  7.55      9RNT 595
+ATOM    486  CB  ILE    61      16.325   7.679  11.453  1.00  8.88      9RNT 596
+ATOM    487  CG1 ILE    61      16.104   6.649  12.594  1.00  6.75      9RNT 597
+ATOM    488  CG2 ILE    61      15.466   7.251  10.224  1.00  8.81      9RNT 598
+ATOM    489  CD1 ILE    61      14.683   6.635  13.145  1.00 10.23      9RNT 599
+ATOM    490  N   LEU    62      19.331   5.852  11.702  1.00  6.35      9RNT 600
+ATOM    491  CA  LEU    62      20.150   4.665  11.379  1.00  7.69      9RNT 601
+ATOM    492  C   LEU    62      19.487   3.361  11.823  1.00  8.08      9RNT 602
+ATOM    493  O   LEU    62      18.955   3.266  12.945  1.00  7.77      9RNT 603
+ATOM    494  CB  LEU    62      21.575   4.780  11.990  1.00  8.79      9RNT 604
+ATOM    495  CG  LEU    62      22.356   6.041  11.502  1.00 10.51      9RNT 605
+ATOM    496  CD1 LEU    62      23.692   6.037  12.259  1.00  8.73      9RNT 606
+ATOM    497  CD2 LEU    62      22.673   6.025  10.039  1.00 15.57      9RNT 607
+ATOM    498  N   SER    63      19.634   2.432  10.893  1.00  8.59      9RNT 608
+ATOM    499  CA  SER    63      18.968   1.113  11.241  1.00  8.32      9RNT 609
+ATOM    500  C   SER    63      19.503   0.493  12.524  1.00 10.05      9RNT 610
+ATOM    501  O   SER    63      18.796  -0.246  13.218  1.00 13.66      9RNT 611
+ATOM    502  CB  SER    63      19.149   0.154  10.068  1.00  8.44      9RNT 612
+ATOM    503  OG  SER    63      20.454  -0.137   9.829  1.00 15.04      9RNT 613
+ATOM    504  N   SER    64      20.759   0.802  12.794  1.00  9.95      9RNT 614
+ATOM    505  CA  SER    64      21.386   0.250  14.010  1.00 10.15      9RNT 615
+ATOM    506  C   SER    64      20.820   0.809  15.305  1.00 14.34      9RNT 616
+ATOM    507  O   SER    64      21.123   0.175  16.341  1.00 15.81      9RNT 617
+ATOM    508  CB  SER    64      22.825   0.613  14.038  1.00 12.88      9RNT 618
+ATOM    509  OG  SER    64      23.059   2.027  14.031  1.00 12.64      9RNT 619
+ATOM    510  N   GLY    65      20.120   1.912  15.281  1.00 10.03      9RNT 620
+ATOM    511  CA  GLY    65      19.643   2.468  16.531  1.00 11.08      9RNT 621
+ATOM    512  C   GLY    65      20.625   3.535  17.059  1.00 13.73      9RNT 622
+ATOM    513  O   GLY    65      20.267   4.233  18.032  1.00 18.71      9RNT 623
+ATOM    514  N   ASP    66      21.826   3.618  16.481  1.00 11.79      9RNT 624
+ATOM    515  CA  ASP    66      22.739   4.656  16.965  1.00 10.41      9RNT 625
+ATOM    516  C   ASP    66      22.331   6.067  16.437  1.00  9.54      9RNT 626
+ATOM    517  O   ASP    66      21.708   6.030  15.368  1.00 10.16      9RNT 627
+ATOM    518  CB  ASP    66      24.115   4.450  16.403  1.00 11.09      9RNT 628
+ATOM    519  CG  ASP    66      24.799   3.195  16.944  1.00 22.87      9RNT 629
+ATOM    520  OD1 ASP    66      24.621   2.846  18.101  1.00 26.78      9RNT 630
+ATOM    521  OD2 ASP    66      25.556   2.590  16.173  1.00 32.28      9RNT 631
+ATOM    522  N   VAL    67      22.698   7.120  17.164  1.00  9.71      9RNT 632
+ATOM    523  CA  VAL    67      22.364   8.428  16.568  1.00  9.31      9RNT 633
+ATOM    524  C   VAL    67      23.461   8.755  15.557  1.00 10.82      9RNT 634
+ATOM    525  O   VAL    67      24.675   8.498  15.755  1.00 13.85      9RNT 635
+ATOM    526  CB  VAL    67      22.333   9.488  17.711  1.00 13.07      9RNT 636
+ATOM    527  CG1 VAL    67      22.432  10.928  17.295  1.00 18.45      9RNT 637
+ATOM    528  CG2 VAL    67      21.118   9.130  18.608  1.00 16.90      9RNT 638
+ATOM    529  N   TYR    68      23.039   9.413  14.458  1.00  9.00      9RNT 639
+ATOM    530  CA  TYR    68      24.035   9.727  13.419  1.00  7.81      9RNT 640
+ATOM    531  C   TYR    68      25.126  10.706  13.914  1.00  9.81      9RNT 641
+ATOM    532  O   TYR    68      24.717  11.744  14.464  1.00 11.40      9RNT 642
+ATOM    533  CB  TYR    68      23.270  10.339  12.217  1.00  8.40      9RNT 643
+ATOM    534  CG  TYR    68      24.171  10.644  11.043  1.00  7.86      9RNT 644
+ATOM    535  CD1 TYR    68      24.795   9.658  10.300  1.00  9.96      9RNT 645
+ATOM    536  CD2 TYR    68      24.438  12.006  10.666  1.00  8.69      9RNT 646
+ATOM    537  CE1 TYR    68      25.696   9.896   9.233  1.00  7.62      9RNT 647
+ATOM    538  CE2 TYR    68      25.299  12.274   9.624  1.00  8.70      9RNT 648
+ATOM    539  CZ  TYR    68      25.899  11.238   8.886  1.00  7.92      9RNT 649
+ATOM    540  OH  TYR    68      26.776  11.523   7.876  1.00 11.13      9RNT 650
+ATOM    541  N   SER    69      26.346  10.345  13.606  1.00 11.07      9RNT 651
+ATOM    542  CA  SER    69      27.429  11.258  14.045  1.00 14.19      9RNT 652
+ATOM    543  C   SER    69      28.459  11.471  12.963  1.00 15.31      9RNT 653
+ATOM    544  O   SER    69      29.523  12.082  13.272  1.00 20.50      9RNT 654
+ATOM    545  CB  SER    69      27.962  10.677  15.349  1.00 18.94      9RNT 655
+ATOM    546  OG  SER    69      28.819   9.628  15.004  1.00 26.52      9RNT 656
+ATOM    547  N   GLY    70      28.154  11.057  11.778  1.00 15.61      9RNT 657
+ATOM    548  CA  GLY    70      29.135  11.249  10.654  1.00 16.02      9RNT 658
+ATOM    549  C   GLY    70      29.228   9.904   9.939  1.00 16.37      9RNT 659
+ATOM    550  O   GLY    70      28.607   8.915  10.364  1.00 18.56      9RNT 660
+ATOM    551  N   GLY    71      29.969   9.816   8.856  1.00 15.81      9RNT 661
+ATOM    552  CA  GLY    71      30.004   8.515   8.203  1.00 15.14      9RNT 662
+ATOM    553  C   GLY    71      28.778   8.455   7.310  1.00 10.37      9RNT 663
+ATOM    554  O   GLY    71      28.081   9.399   6.904  1.00 12.04      9RNT 664
+ATOM    555  N   SER    72      28.507   7.187   6.880  1.00  9.77      9RNT 665
+ATOM    556  CA  SER    72      27.422   7.023   5.948  1.00  8.24      9RNT 666
+ATOM    557  C   SER    72      26.087   7.272   6.600  1.00  7.66      9RNT 667
+ATOM    558  O   SER    72      25.841   6.687   7.668  1.00  9.76      9RNT 668
+ATOM    559  CB  SER    72      27.547   5.540   5.417  1.00 10.40      9RNT 669
+ATOM    560  OG  SER    72      26.419   5.392   4.539  1.00 10.30      9RNT 670
+ATOM    561  N   PRO    73      25.249   8.043   5.972  1.00  7.77      9RNT 671
+ATOM    562  CA  PRO    73      23.939   8.335   6.583  1.00  8.17      9RNT 672
+ATOM    563  C   PRO    73      22.893   7.275   6.227  1.00  8.10      9RNT 673
+ATOM    564  O   PRO    73      21.767   7.429   6.769  1.00  8.85      9RNT 674
+ATOM    565  CB  PRO    73      23.579   9.725   5.980  1.00  9.68      9RNT 675
+ATOM    566  CG  PRO    73      24.181   9.599   4.611  1.00  8.01      9RNT 676
+ATOM    567  CD  PRO    73      25.524   8.846   4.708  1.00 10.05      9RNT 677
+ATOM    568  N   GLY    74      23.253   6.345   5.323  1.00  8.21      9RNT 678
+ATOM    569  CA  GLY    74      22.132   5.396   5.031  1.00  7.85      9RNT 679
+ATOM    570  C   GLY    74      21.075   6.131   4.180  1.00  8.49      9RNT 680
+ATOM    571  O   GLY    74      21.275   7.248   3.618  1.00  9.65      9RNT 681
+ATOM    572  N   ALA    75      19.970   5.450   4.006  1.00  8.33      9RNT 682
+ATOM    573  CA  ALA    75      18.927   6.044   3.116  1.00  7.93      9RNT 683
+ATOM    574  C   ALA    75      17.726   6.516   3.888  1.00  6.52      9RNT 684
+ATOM    575  O   ALA    75      16.862   7.146   3.237  1.00  8.58      9RNT 685
+ATOM    576  CB  ALA    75      18.406   4.777   2.385  1.00 13.68      9RNT 686
+ATOM    577  N   ASP    76      17.587   6.378   5.218  1.00  6.86      9RNT 687
+ATOM    578  CA  ASP    76      16.363   6.762   5.882  1.00  5.25      9RNT 688
+ATOM    579  C   ASP    76      16.520   8.127   6.657  1.00  5.68      9RNT 689
+ATOM    580  O   ASP    76      17.619   8.408   7.132  1.00  5.95      9RNT 690
+ATOM    581  CB  ASP    76      15.959   5.660   6.935  1.00  6.93      9RNT 691
+ATOM    582  CG  ASP    76      15.886   4.308   6.264  1.00  8.99      9RNT 692
+ATOM    583  OD1 ASP    76      15.649   4.171   5.070  1.00  8.31      9RNT 693
+ATOM    584  OD2 ASP    76      16.028   3.313   7.014  1.00  7.66      9RNT 694
+ATOM    585  N   ARG    77      15.424   8.821   6.670  1.00  5.81      9RNT 695
+ATOM    586  CA  ARG    77      15.500  10.155   7.346  1.00  6.40      9RNT 696
+ATOM    587  C   ARG    77      14.232  10.468   8.117  1.00  5.30      9RNT 697
+ATOM    588  O   ARG    77      13.080  10.073   7.747  1.00  8.58      9RNT 698
+ATOM    589  CB  ARG    77      15.402  11.264   6.259  1.00  7.57      9RNT 699
+ATOM    590  CG  ARG    77      16.539  11.191   5.164  1.00  7.79      9RNT 700
+ATOM    591  CD  ARG    77      17.896  11.504   5.657  1.00  8.49      9RNT 701
+ATOM    592  NE  ARG    77      18.964  11.358   4.629  1.00  7.02      9RNT 702
+ATOM    593  CZ  ARG    77      19.733  10.255   4.432  1.00  7.58      9RNT 703
+ATOM    594  NH1 ARG    77      19.588   9.218   5.252  1.00  8.73      9RNT 704
+ATOM    595  NH2 ARG    77      20.557  10.280   3.399  1.00 11.31      9RNT 705
+ATOM    596  N   VAL    78      14.399  11.236   9.230  1.00  6.98      9RNT 706
+ATOM    597  CA  VAL    78      13.260  11.806   9.966  1.00  5.94      9RNT 707
+ATOM    598  C   VAL    78      13.192  13.275   9.415  1.00  4.94      9RNT 708
+ATOM    599  O   VAL    78      14.286  13.834   9.207  1.00 10.12      9RNT 709
+ATOM    600  CB  VAL    78      13.570  11.834  11.495  1.00 12.12      9RNT 710
+ATOM    601  CG1AVAL    78      12.744  12.772  12.359  0.50 22.45      9RNT 711
+ATOM    602  CG1BVAL    78      14.897  12.304  11.978  0.50  5.91      9RNT 712
+ATOM    603  CG2AVAL    78      13.515  10.409  11.903  0.50  5.29      9RNT 713
+ATOM    604  CG2BVAL    78      12.502  12.571  12.288  0.50 21.57      9RNT 714
+ATOM    605  N   VAL    79      12.010  13.691   9.279  1.00  5.96      9RNT 715
+ATOM    606  CA  VAL    79      11.841  15.136   8.817  1.00  6.66      9RNT 716
+ATOM    607  C   VAL    79      11.097  15.804   9.991  1.00  8.04      9RNT 717
+ATOM    608  O   VAL    79      10.049  15.296  10.421  1.00  9.94      9RNT 718
+ATOM    609  CB  VAL    79      10.967  15.159   7.588  1.00  8.90      9RNT 719
+ATOM    610  CG1 VAL    79      10.684  16.640   7.126  1.00 12.73      9RNT 720
+ATOM    611  CG2 VAL    79      11.730  14.433   6.459  1.00 12.61      9RNT 721
+ATOM    612  N   PHE    80      11.657  16.943  10.418  1.00  9.40      9RNT 722
+ATOM    613  CA  PHE    80      11.013  17.690  11.531  1.00  8.77      9RNT 723
+ATOM    614  C   PHE    80      10.969  19.149  10.986  1.00  9.99      9RNT 724
+ATOM    615  O   PHE    80      11.633  19.522  10.067  1.00 10.65      9RNT 725
+ATOM    616  CB  PHE    80      11.785  17.585  12.833  1.00  8.87      9RNT 726
+ATOM    617  CG  PHE    80      13.247  17.971  12.782  1.00 10.38      9RNT 727
+ATOM    618  CD1 PHE    80      13.722  19.272  12.807  1.00  9.50      9RNT 728
+ATOM    619  CD2 PHE    80      14.198  16.946  12.686  1.00 13.51      9RNT 729
+ATOM    620  CE1 PHE    80      15.072  19.585  12.715  1.00 10.72      9RNT 730
+ATOM    621  CE2 PHE    80      15.587  17.267  12.599  1.00 13.59      9RNT 731
+ATOM    622  CZ  PHE    80      16.028  18.573  12.644  1.00 14.12      9RNT 732
+ATOM    623  N   ASN    81      10.153  19.961  11.675  1.00 10.64      9RNT 733
+ATOM    624  CA  ASN    81      10.033  21.373  11.288  1.00 10.35      9RNT 734
+ATOM    625  C   ASN    81      10.772  22.267  12.330  1.00 11.89      9RNT 735
+ATOM    626  O   ASN    81      11.422  21.877  13.284  1.00 10.08      9RNT 736
+ATOM    627  CB  ASN    81       8.584  21.673  10.966  1.00 12.09      9RNT 737
+ATOM    628  CG  ASN    81       7.774  21.874  12.242  1.00 11.40      9RNT 738
+ATOM    629  OD1 ASN    81       8.165  21.708  13.389  1.00 12.07      9RNT 739
+ATOM    630  ND2 ASN    81       6.478  22.298  12.137  1.00 17.38      9RNT 740
+ATOM    631  N   GLU    82      10.554  23.585  11.925  1.00 12.74      9RNT 741
+ATOM    632  CA  GLU    82      11.215  24.605  12.777  1.00 14.45      9RNT 742
+ATOM    633  C   GLU    82      10.756  24.555  14.212  1.00 13.17      9RNT 743
+ATOM    634  O   GLU    82      11.585  25.001  15.039  1.00 14.72      9RNT 744
+ATOM    635  CB  GLU    82      10.910  26.004  12.120  1.00 14.02      9RNT 745
+ATOM    636  CG  GLU    82      11.918  27.027  12.599  1.00 16.45      9RNT 746
+ATOM    637  CD  GLU    82      13.240  26.922  11.886  1.00 19.50      9RNT 747
+ATOM    638  OE1 GLU    82      13.213  26.901  10.639  1.00 19.88      9RNT 748
+ATOM    639  OE2 GLU    82      14.279  26.923  12.449  1.00 23.19      9RNT 749
+ATOM    640  N   ASN    83       9.572  24.069  14.526  1.00 12.15      9RNT 750
+ATOM    641  CA  ASN    83       9.037  24.007  15.892  1.00 14.76      9RNT 751
+ATOM    642  C   ASN    83       9.329  22.629  16.481  1.00 14.60      9RNT 752
+ATOM    643  O   ASN    83       8.646  22.304  17.478  1.00 15.12      9RNT 753
+ATOM    644  CB  ASN    83       7.558  24.410  15.870  1.00 19.32      9RNT 754
+ATOM    645  CG  ASN    83       7.425  25.857  15.404  1.00 30.45      9RNT 755
+ATOM    646  OD1 ASN    83       7.988  26.761  16.042  1.00 33.00      9RNT 756
+ATOM    647  ND2 ASN    83       6.721  26.114  14.305  1.00 38.64      9RNT 757
+ATOM    648  N   ASN    84      10.234  21.862  15.914  1.00 12.64      9RNT 758
+ATOM    649  CA  ASN    84      10.501  20.539  16.511  1.00 11.01      9RNT 759
+ATOM    650  C   ASN    84       9.278  19.601  16.537  1.00 13.49      9RNT 760
+ATOM    651  O   ASN    84       9.143  18.845  17.521  1.00 14.83      9RNT 761
+ATOM    652  CB  ASN    84      11.228  20.721  17.838  1.00 12.88      9RNT 762
+ATOM    653  CG  ASN    84      11.943  19.515  18.466  1.00 16.64      9RNT 763
+ATOM    654  OD1 ASN    84      12.353  19.598  19.638  1.00 24.23      9RNT 764
+ATOM    655  ND2 ASN    84      12.145  18.482  17.712  1.00 14.49      9RNT 765
+ATOM    656  N   GLN    85       8.512  19.682  15.448  1.00 11.36      9RNT 766
+ATOM    657  CA  GLN    85       7.340  18.761  15.342  1.00 12.40      9RNT 767
+ATOM    658  C   GLN    85       7.805  17.753  14.243  1.00 13.17      9RNT 768
+ATOM    659  O   GLN    85       8.404  18.174  13.217  1.00 10.91      9RNT 769
+ATOM    660  CB  GLN    85       6.094  19.494  14.814  1.00 14.87      9RNT 770
+ATOM    661  CG  GLN    85       5.618  20.531  15.880  1.00 20.42      9RNT 771
+ATOM    662  CD  GLN    85       4.486  21.279  15.197  1.00 26.99      9RNT 772
+ATOM    663  OE1 GLN    85       4.561  22.181  14.364  1.00 28.16      9RNT 773
+ATOM    664  NE2 GLN    85       3.378  20.700  15.668  1.00 34.35      9RNT 774
+ATOM    665  N   LEU    86       7.384  16.500  14.615  1.00 11.44      9RNT 775
+ATOM    666  CA  LEU    86       7.755  15.492  13.559  1.00 11.83      9RNT 776
+ATOM    667  C   LEU    86       6.826  15.597  12.355  1.00 10.95      9RNT 777
+ATOM    668  O   LEU    86       5.561  15.587  12.559  1.00 12.82      9RNT 778
+ATOM    669  CB  LEU    86       7.508  14.101  14.151  1.00 13.91      9RNT 779
+ATOM    670  CG  LEU    86       7.652  12.829  13.289  1.00 12.56      9RNT 780
+ATOM    671  CD1 LEU    86       9.108  12.691  12.899  1.00 12.07      9RNT 781
+ATOM    672  CD2 LEU    86       7.193  11.586  14.051  1.00 13.89      9RNT 782
+ATOM    673  N   ALA    87       7.361  15.607  11.125  1.00 10.21      9RNT 783
+ATOM    674  CA  ALA    87       6.555  15.695   9.944  1.00 12.11      9RNT 784
+ATOM    675  C   ALA    87       6.338  14.263   9.334  1.00 14.52      9RNT 785
+ATOM    676  O   ALA    87       5.207  13.959   8.903  1.00 15.89      9RNT 786
+ATOM    677  CB  ALA    87       7.201  16.567   8.866  1.00 10.15      9RNT 787
+ATOM    678  N   GLY    88       7.448  13.494   9.393  1.00 11.51      9RNT 788
+ATOM    679  CA  GLY    88       7.320  12.098   8.839  1.00 13.03      9RNT 789
+ATOM    680  C   GLY    88       8.686  11.422   8.812  1.00 12.17      9RNT 790
+ATOM    681  O   GLY    88       9.684  12.005   9.211  1.00 10.18      9RNT 791
+ATOM    682  N   VAL    89       8.625  10.135   8.329  1.00  8.32      9RNT 792
+ATOM    683  CA  VAL    89       9.799   9.279   8.212  1.00  8.41      9RNT 793
+ATOM    684  C   VAL    89       9.822   8.897   6.691  1.00  7.38      9RNT 794
+ATOM    685  O   VAL    89       8.792   8.365   6.320  1.00  8.36      9RNT 795
+ATOM    686  CB  VAL    89       9.855   8.120   9.247  1.00  8.58      9RNT 796
+ATOM    687  CG1 VAL    89      11.167   7.355   8.970  1.00  9.43      9RNT 797
+ATOM    688  CG2 VAL    89       9.761   8.699  10.664  1.00 11.58      9RNT 798
+ATOM    689  N   ILE    90      10.900   9.213   6.100  1.00  7.34      9RNT 799
+ATOM    690  CA  ILE    90      11.016   8.949   4.619  1.00  6.03      9RNT 800
+ATOM    691  C   ILE    90      12.294   8.251   4.281  1.00  7.42      9RNT 801
+ATOM    692  O   ILE    90      13.196   8.170   5.153  1.00  8.35      9RNT 802
+ATOM    693  CB  ILE    90      10.885  10.307   3.847  1.00  8.18      9RNT 803
+ATOM    694  CG1 ILE    90      12.101  11.226   4.223  1.00  7.94      9RNT 804
+ATOM    695  CG2 ILE    90       9.521  10.928   4.116  1.00 11.62      9RNT 805
+ATOM    696  CD1 ILE    90      12.040  12.615   3.453  1.00 10.40      9RNT 806
+ATOM    697  N   THR    91      12.391   7.761   3.046  1.00  7.61      9RNT 807
+ATOM    698  CA  THR    91      13.630   7.047   2.674  1.00  5.17      9RNT 808
+ATOM    699  C   THR    91      13.835   7.180   1.152  1.00  5.08      9RNT 809
+ATOM    700  O   THR    91      12.927   7.374   0.335  1.00  8.20      9RNT 810
+ATOM    701  CB  THR    91      13.397   5.496   3.002  1.00  8.75      9RNT 811
+ATOM    702  OG1 THR    91      14.623   4.794   2.732  1.00  8.54      9RNT 812
+ATOM    703  CG2 THR    91      12.188   4.877   2.275  1.00  8.07      9RNT 813
+ATOM    704  N   HIS    92      15.099   7.025   0.887  1.00  7.08      9RNT 814
+ATOM    705  CA  HIS    92      15.589   7.004  -0.524  1.00  7.86      9RNT 815
+ATOM    706  C   HIS    92      15.440   5.527  -1.008  1.00  7.99      9RNT 816
+ATOM    707  O   HIS    92      15.526   5.306  -2.245  1.00 10.34      9RNT 817
+ATOM    708  CB  HIS    92      17.038   7.358  -0.667  1.00  8.89      9RNT 818
+ATOM    709  CG  HIS    92      17.329   8.830  -0.470  1.00 11.00      9RNT 819
+ATOM    710  ND1 HIS    92      16.764   9.787  -1.218  1.00 12.94      9RNT 820
+ATOM    711  CD2 HIS    92      18.114   9.440   0.486  1.00 14.25      9RNT 821
+ATOM    712  CE1 HIS    92      17.229  10.965  -0.839  1.00 16.98      9RNT 822
+ATOM    713  NE2 HIS    92      17.997  10.816   0.219  1.00 14.89      9RNT 823
+ATOM    714  N   THR    93      15.224   4.588  -0.128  1.00  7.08      9RNT 824
+ATOM    715  CA  THR    93      15.095   3.174  -0.588  1.00  8.42      9RNT 825
+ATOM    716  C   THR    93      13.846   3.022  -1.453  1.00  7.77      9RNT 826
+ATOM    717  O   THR    93      12.762   3.398  -1.061  1.00  9.68      9RNT 827
+ATOM    718  CB  THR    93      15.021   2.195   0.657  1.00  9.62      9RNT 828
+ATOM    719  OG1 THR    93      16.300   2.361   1.268  1.00 11.11      9RNT 829
+ATOM    720  CG2 THR    93      14.757   0.705   0.278  1.00  8.22      9RNT 830
+ATOM    721  N   GLY    94      14.097   2.405  -2.694  1.00  8.43      9RNT 831
+ATOM    722  CA  GLY    94      12.900   2.247  -3.554  1.00  7.13      9RNT 832
+ATOM    723  C   GLY    94      12.503   3.521  -4.351  1.00 10.70      9RNT 833
+ATOM    724  O   GLY    94      11.423   3.525  -4.975  1.00 10.86      9RNT 834
+ATOM    725  N   ALA    95      13.355   4.528  -4.340  1.00 10.00      9RNT 835
+ATOM    726  CA  ALA    95      13.032   5.761  -5.124  1.00 10.81      9RNT 836
+ATOM    727  C   ALA    95      14.305   5.974  -5.904  1.00 10.10      9RNT 837
+ATOM    728  O   ALA    95      15.444   5.662  -5.613  1.00 11.29      9RNT 838
+ATOM    729  CB  ALA    95      12.776   6.969  -4.176  1.00 12.42      9RNT 839
+ATOM    730  N   SER    96      14.191   6.581  -7.101  1.00 13.61      9RNT 840
+ATOM    731  CA  SER    96      15.344   6.852  -7.968  1.00 18.71      9RNT 841
+ATOM    732  C   SER    96      16.041   8.140  -7.558  1.00 18.76      9RNT 842
+ATOM    733  O   SER    96      15.427   9.119  -7.047  1.00 17.80      9RNT 843
+ATOM    734  CB  SER    96      14.981   6.964  -9.443  1.00 27.04      9RNT 844
+ATOM    735  OG  SER    96      14.014   7.984  -9.580  1.00 35.30      9RNT 845
+ATOM    736  N   GLY    97      17.336   8.107  -7.770  1.00 23.60      9RNT 846
+ATOM    737  CA  GLY    97      18.180   9.249  -7.473  1.00 27.10      9RNT 847
+ATOM    738  C   GLY    97      18.045   9.868  -6.104  1.00 28.08      9RNT 848
+ATOM    739  O   GLY    97      18.091   9.053  -5.175  1.00 34.09      9RNT 849
+ATOM    740  N   ASN    98      17.880  11.151  -6.014  1.00 27.30      9RNT 850
+ATOM    741  CA  ASN    98      17.773  11.753  -4.673  1.00 25.70      9RNT 851
+ATOM    742  C   ASN    98      16.304  11.832  -4.305  1.00 22.35      9RNT 852
+ATOM    743  O   ASN    98      16.067  12.522  -3.305  1.00 21.27      9RNT 853
+ATOM    744  CB  ASN    98      18.652  12.987  -4.498  1.00 39.03      9RNT 854
+ATOM    745  CG  ASN    98      19.008  13.856  -5.680  1.00 40.53      9RNT 855
+ATOM    746  N   ASN    99      15.372  11.174  -4.943  1.00 15.76      9RNT 856
+ATOM    747  CA  ASN    99      13.936  11.253  -4.554  1.00 14.57      9RNT 857
+ATOM    748  C   ASN    99      13.662  10.402  -3.282  1.00 10.04      9RNT 858
+ATOM    749  O   ASN    99      14.593   9.682  -2.888  1.00 11.69      9RNT 859
+ATOM    750  CB  ASN    99      13.071  10.867  -5.718  1.00 17.28      9RNT 860
+ATOM    751  CG AASN    99      13.326  11.785  -6.934  0.60 22.80      9RNT 861
+ATOM    752  CG BASN    99      12.832  12.067  -6.648  0.40 23.33      9RNT 862
+ATOM    753  OD1AASN    99      13.390  11.228  -8.034  0.60 22.71      9RNT 863
+ATOM    754  OD1BASN    99      13.721  12.904  -6.888  0.40 26.91      9RNT 864
+ATOM    755  ND2AASN    99      13.464  13.097  -6.655  0.60 21.13      9RNT 865
+ATOM    756  ND2BASN    99      11.583  12.081  -7.111  0.40 14.55      9RNT 866
+ATOM    757  N   PHE   100      12.432  10.596  -2.842  1.00 10.57      9RNT 867
+ATOM    758  CA  PHE   100      12.065   9.821  -1.602  1.00  8.42      9RNT 868
+ATOM    759  C   PHE   100      10.697   9.195  -1.734  1.00  9.53      9RNT 869
+ATOM    760  O   PHE   100       9.838   9.567  -2.581  1.00 11.91      9RNT 870
+ATOM    761  CB  PHE   100      11.906  10.831  -0.443  1.00  9.61      9RNT 871
+ATOM    762  CG  PHE   100      13.074  11.556   0.092  1.00 11.21      9RNT 872
+ATOM    763  CD1 PHE   100      13.876  10.839   1.043  1.00 11.65      9RNT 873
+ATOM    764  CD2 PHE   100      13.480  12.840  -0.273  1.00 15.96      9RNT 874
+ATOM    765  CE1 PHE   100      14.992  11.328   1.685  1.00 15.61      9RNT 875
+ATOM    766  CE2 PHE   100      14.623  13.366   0.395  1.00 14.08      9RNT 876
+ATOM    767  CZ  PHE   100      15.330  12.649   1.324  1.00 16.09      9RNT 877
+ATOM    768  N   VAL   101      10.460   8.217  -0.859  1.00  9.40      9RNT 878
+ATOM    769  CA  VAL   101       9.130   7.617  -0.713  1.00  7.88      9RNT 879
+ATOM    770  C   VAL   101       8.939   7.688   0.825  1.00  9.47      9RNT 880
+ATOM    771  O   VAL   101       9.906   7.758   1.613  1.00 10.46      9RNT 881
+ATOM    772  CB  VAL   101       8.975   6.176  -1.176  1.00  9.94      9RNT 882
+ATOM    773  CG1 VAL   101       9.190   6.227  -2.715  1.00 12.12      9RNT 883
+ATOM    774  CG2 VAL   101      10.014   5.219  -0.594  1.00 12.44      9RNT 884
+ATOM    775  N   GLU   102       7.712   7.543   1.268  1.00 10.94      9RNT 885
+ATOM    776  CA  GLU   102       7.502   7.580   2.729  1.00  9.65      9RNT 886
+ATOM    777  C   GLU   102       7.666   6.148   3.297  1.00  9.86      9RNT 887
+ATOM    778  O   GLU   102       7.331   5.159   2.599  1.00 13.40      9RNT 888
+ATOM    779  CB  GLU   102       6.047   7.936   3.059  1.00  9.99      9RNT 889
+ATOM    780  CG  GLU   102       5.788   9.389   2.651  1.00 17.43      9RNT 890
+ATOM    781  CD  GLU   102       4.331   9.793   2.852  1.00 29.97      9RNT 891
+ATOM    782  OE1 GLU   102       3.661   9.520   1.856  1.00 28.46      9RNT 892
+ATOM    783  OE2 GLU   102       4.127  10.295   3.936  1.00 29.50      9RNT 893
+ATOM    784  N   CYS   103       8.105   6.164   4.537  1.00  9.54      9RNT 894
+ATOM    785  CA  CYS   103       8.173   4.823   5.221  1.00 10.95      9RNT 895
+ATOM    786  C   CYS   103       6.719   4.517   5.586  1.00 17.90      9RNT 896
+ATOM    787  O   CYS   103       5.932   5.449   5.792  1.00 21.59      9RNT 897
+ATOM    788  CB  CYS   103       9.073   4.966   6.426  1.00 10.77      9RNT 898
+ATOM    789  SG  CYS   103      10.725   5.326   5.798  1.00  8.63      9RNT 899
+ATOM    790  N   THR   104       6.368   3.249   5.707  1.00 18.82      9RNT 900
+ATOM    791  CA  THR   104       4.964   2.896   6.004  1.00 21.43      9RNT 901
+ATOM    792  C   THR   104       4.720   2.314   7.377  1.00 20.33      9RNT 902
+ATOM    793  O   THR   104       3.521   2.186   7.760  1.00 24.33      9RNT 903
+ATOM    794  CB  THR   104       4.505   1.871   4.905  1.00 22.66      9RNT 904
+ATOM    795  OG1 THR   104       5.607   0.910   4.890  1.00 25.87      9RNT 905
+ATOM    796  CG2 THR   104       4.393   2.506   3.506  1.00 26.97      9RNT 906
+ATOM    797  OXT THR   104       5.661   2.035   8.050  1.00 17.81      9RNT 907
+TER     798      THR   104                                              9RNT 908
+HETATM  799 CA    CA   105      15.509   0.211  17.155  1.00 12.62      9RNT 909
+HETATM  800  O   HOH   106      19.641   5.618   7.229  1.00  6.66      9RNT 910
+HETATM  801  O   HOH   107      20.165   9.740  14.094  1.00  8.85      9RNT 911
+HETATM  802  O   HOH   108      19.347   7.018  14.492  1.00  9.73      9RNT 912
+HETATM  803  O   HOH   109      14.350  -1.064  15.485  1.00 11.56      9RNT 913
+HETATM  804  O   HOH   110      17.325   6.393  16.390  1.00 12.25      9RNT 914
+HETATM  805  O   HOH   111      15.885   1.784   3.920  1.00 12.29      9RNT 915
+HETATM  806  O   HOH   112      20.394   2.987   8.027  1.00 12.52      9RNT 916
+HETATM  807  O   HOH   113      17.056   3.911  14.850  1.00 12.80      9RNT 917
+HETATM  808  O   HOH   114      16.773   1.209  15.253  1.00 13.22      9RNT 918
+HETATM  809  O   HOH   115      26.625  12.903   5.287  1.00 13.47      9RNT 919
+HETATM  810  O   HOH   116      22.136  23.291  11.691  1.00 15.46      9RNT 920
+HETATM  811  O   HOH   117      10.843   1.780   0.126  1.00 15.64      9RNT 921
+HETATM  812  O   HOH   118      33.005  21.260   2.449  1.00 15.78      9RNT 922
+HETATM  813  O   HOH   119      22.798   1.685  10.522  1.00 16.77      9RNT 923
+HETATM  814  O   HOH   120       8.839   2.898  20.950  1.00 17.11      9RNT 924
+HETATM  815  O   HOH   121      19.118  12.797   1.851  1.00 17.16      9RNT 925
+HETATM  816  O   HOH   122      13.641   0.151  18.769  1.00 17.15      9RNT 926
+HETATM  817  O   HOH   123      14.767   2.957  20.755  1.00 17.01      9RNT 927
+HETATM  818  O   HOH   124      17.421   4.635  18.511  1.00 17.53      9RNT 928
+HETATM  819  O   HOH   125      19.713  22.931  10.520  1.00 17.48      9RNT 929
+HETATM  820  O   HOH   126      11.377  23.367   3.938  1.00 18.03      9RNT 930
+HETATM  821  O   HOH   127       1.604  11.461   1.494  1.00 18.21      9RNT 931
+HETATM  822  O   HOH   128      16.286   0.676  -3.517  1.00 18.61      9RNT 932
+HETATM  823  O   HOH   129      10.298  15.714  -1.641  1.00 19.47      9RNT 933
+HETATM  824  O   HOH   130      28.999  18.915   8.321  1.00 19.75      9RNT 934
+HETATM  825  O   HOH   131       3.339  12.038  -3.274  1.00 19.36      9RNT 935
+HETATM  826  O   HOH   132      17.104   0.578  18.931  1.00 20.25      9RNT 936
+HETATM  827  O   HOH   133      20.217  26.127  12.324  1.00 20.44      9RNT 937
+HETATM  828  O   HOH   134      19.279   2.919   5.119  1.00 21.29      9RNT 938
+HETATM  829  O   HOH   135      27.048   7.832  12.372  1.00 21.40      9RNT 939
+HETATM  830  O   HOH   136       5.413  -0.144   9.843  1.00 21.25      9RNT 940
+HETATM  831  O   HOH   137      30.501   5.084   7.606  1.00 21.68      9RNT 941
+HETATM  832  O   HOH   138       5.444   7.293  -0.472  1.00 22.42      9RNT 942
+HETATM  833  O   HOH   139      29.997  11.596   5.806  1.00 21.82      9RNT 943
+HETATM  834  O   HOH   140      14.562  18.104  -0.403  1.00 22.23      9RNT 944
+HETATM  835  O   HOH   141      22.205  22.821   7.376  1.00 23.10      9RNT 945
+HETATM  836  O   HOH   142      32.528   5.519   9.309  1.00 25.80      9RNT 946
+HETATM  837  O   HOH   143      14.317  22.417  22.067  1.00 25.71      9RNT 947
+HETATM  838  O   HOH   144      19.912  23.611   4.456  1.00 25.74      9RNT 948
+HETATM  839  O   HOH   145       5.008  -7.521  16.951  1.00 25.97      9RNT 949
+HETATM  840  O   HOH   146       9.796   4.828  -6.620  1.00 26.07      9RNT 950
+HETATM  841  O   HOH   147       5.617  -4.103  19.018  1.00 26.68      9RNT 951
+HETATM  842  O   HOH   148      16.258  18.272  21.098  1.00 26.64      9RNT 952
+HETATM  843  O   HOH   149      26.116   0.029  15.835  1.00 26.60      9RNT 953
+HETATM  844  O   HOH   150      29.061   0.623  12.638  1.00 27.21      9RNT 954
+HETATM  845  O   HOH   151      23.710  12.152   1.846  1.00 26.79      9RNT 955
+HETATM  846  O   HOH   152      17.893  -1.568  -0.720  1.00 26.65      9RNT 956
+HETATM  847  O   HOH   153       8.328   9.427  17.769  1.00 28.04      9RNT 957
+HETATM  848  O   HOH   154      17.503  -1.230  16.258  1.00 28.02      9RNT 958
+HETATM  849  O   HOH   155       7.226  25.686   1.694  1.00 28.55      9RNT 959
+HETATM  850  O   HOH   156       6.492  15.848  17.232  1.00 28.67      9RNT 960
+HETATM  851  O   HOH   157      20.294   6.455  -0.355  1.00 29.08      9RNT 961
+HETATM  852  O   HOH   158      18.861  11.846  21.221  1.00 28.58      9RNT 962
+HETATM  853  O   HOH   159       2.848  15.073   9.356  1.00 29.69      9RNT 963
+HETATM  854  O   HOH   160       9.273   2.359   2.170  1.00 29.47      9RNT 964
+HETATM  855  O   HOH   161      16.295   5.192  21.385  1.00 29.99      9RNT 965
+HETATM  856  O   HOH   162       4.344  20.450   2.329  1.00 30.10      9RNT 966
+HETATM  857  O   HOH   163      15.431  -3.223  11.229  1.00 31.11      9RNT 967
+HETATM  858  O   HOH   164      11.923  13.986  19.913  1.00 30.50      9RNT 968
+HETATM  859  O   HOH   165      22.764  16.236  19.054  1.00 30.74      9RNT 969
+HETATM  860  O   HOH   166      24.382   6.614  19.503  1.00 30.77      9RNT 970
+HETATM  861  O   HOH   167      15.610  -1.666   3.082  1.00 31.63      9RNT 971
+HETATM  862  O   HOH   168      18.319   1.504  -0.128  1.00 31.49      9RNT 972
+HETATM  863  O   HOH   169       5.994   8.918   7.667  1.00 32.09      9RNT 973
+HETATM  864  O   HOH   170       9.108  12.317  17.824  1.00 31.74      9RNT 974
+HETATM  865  O   HOH   171      26.435   4.398   9.254  1.00 32.87      9RNT 975
+HETATM  866  O   HOH   172       6.297   8.438  16.158  1.00 32.47      9RNT 976
+HETATM  867  O   HOH   173       8.769  26.102  18.493  1.00 32.97      9RNT 977
+HETATM  868  O   HOH   174      32.436  22.403   8.282  1.00 32.80      9RNT 978
+HETATM  869  O   HOH   175       7.424  -4.232   9.034  1.00 33.56      9RNT 979
+HETATM  870  O   HOH   176      23.249  25.381  10.061  1.00 33.60      9RNT 980
+HETATM  871  O   HOH   177      30.654  19.725  10.943  1.00 34.37      9RNT 981
+HETATM  872  O   HOH   178       3.888  11.785   7.985  1.00 33.56      9RNT 982
+HETATM  873  O   HOH   179       6.237  -4.999  11.681  1.00 33.57      9RNT 983
+HETATM  874  O   HOH   180      16.895  17.790   1.197  1.00 34.70      9RNT 984
+HETATM  875  O   HOH   181      12.502  16.510  19.961  1.00 35.29      9RNT 985
+HETATM  876  O   HOH   182      27.422   6.499  10.160  1.00 35.32      9RNT 986
+HETATM  877  O   HOH   183       8.976  -1.634   2.504  1.00 36.37      9RNT 987
+HETATM  878  O   HOH   184      24.509   6.153   2.331  1.00 36.51      9RNT 988
+HETATM  879  O   HOH   185      21.893   8.644   1.210  1.00 36.49      9RNT 989
+HETATM  880  O   HOH   186      29.744  20.523   6.363  1.00 36.68      9RNT 990
+HETATM  881  O   HOH   187      25.779  10.755   1.266  1.00 36.90      9RNT 991
+HETATM  882  O   HOH   188       3.107  23.230  12.313  1.00 36.74      9RNT 992
+HETATM  883  O   HOH   189      29.323   2.778  10.788  1.00 36.41      9RNT 993
+HETATM  884  O   HOH   190       9.752   9.271  -5.430  1.00 37.63      9RNT 994
+HETATM  885  O   HOH   191      25.061  13.741  16.444  1.00 37.25      9RNT 995
+HETATM  886  O   HOH   192       3.676   5.437   1.113  1.00 38.45      9RNT 996
+HETATM  887  O   HOH   193       5.966   4.309   0.360  1.00 37.52      9RNT 997
+HETATM  888  O   HOH   194      15.053  15.399  -2.425  1.00 39.09      9RNT 998
+HETATM  889  O   HOH   195      27.831  19.629   2.710  1.00 38.05      9RNT 999
+HETATM  890  O   HOH   196       3.856  15.863  14.672  1.00 37.23      9RNT1000
+HETATM  891  O   HOH   197      20.064   6.692  -8.072  1.00 39.12      9RNT1001
+HETATM  892  O   HOH   198       8.710   7.919  21.639  1.00 38.75      9RNT1002
+HETATM  893  O   HOH   199      22.125   7.209  -6.483  1.00 39.39      9RNT1003
+HETATM  894  O   HOH   200      18.841   2.509  20.102  1.00 39.29      9RNT1004
+HETATM  895  O   HOH   201       7.723  25.228  11.389  1.00 39.88      9RNT1005
+HETATM  896  O   HOH   202      27.260  25.906  18.197  1.00 39.61      9RNT1006
+HETATM  897  O   HOH   203      21.021   5.365  20.612  1.00 39.05      9RNT1007
+HETATM  898  O   HOH   204      11.985  13.238  -3.174  1.00 39.90      9RNT1008
+HETATM  899  O   HOH   205      26.171   9.072  18.332  1.00 39.16      9RNT1009
+HETATM  900  O   HOH   206      22.356   5.038   1.470  1.00 39.98      9RNT1010
+HETATM  901  O   HOH   207       7.882   0.625   3.429  1.00 40.61      9RNT1011
+HETATM  902  O   HOH   208      13.908  17.394  21.954  1.00 39.53      9RNT1012
+HETATM  903  O   HOH   209      30.657  19.271   2.704  1.00 39.51      9RNT1013
+HETATM  904  O   HOH   210      19.591  -1.312  18.152  1.00 40.69      9RNT1014
+HETATM  905  O   HOH   211      21.424  11.200  -5.218  1.00 42.69      9RNT1015
+HETATM  906  O   HOH   212       5.797  25.457  21.714  1.00 42.99      9RNT1016
+HETATM  907  O   HOH   213      20.277  15.187   1.354  1.00 43.33      9RNT1017
+HETATM  908  O   HOH   214       9.854  -5.262   4.386  1.00 43.08      9RNT1018
+HETATM  909  O   HOH   215      11.469   7.528  -7.426  1.00 42.96      9RNT1019
+HETATM  910  O   HOH   216      17.526  -0.091   2.986  1.00 43.94      9RNT1020
+HETATM  911  O   HOH   217      31.932  12.150   7.921  1.00 44.16      9RNT1021
+HETATM  912  O   HOH   218      30.838  15.145  11.097  1.00 44.54      9RNT1022
+HETATM  913  O   HOH   219      25.740   2.509  13.113  1.00 46.00      9RNT1023
+HETATM  914  O   HOH   220       4.872  10.332  11.446  1.00 48.42      9RNT1024
+HETATM  915  O   HOH   221       1.042  18.607   0.657  1.00 48.67      9RNT1025
+HETATM  916  O   HOH   222      27.980  14.572  16.793  1.00 50.57      9RNT1026
+HETATM  917  O   HOH   223       4.441   6.778   7.763  1.00 50.39      9RNT1027
+HETATM  918  O   HOH   224       2.467  19.196   3.890  1.00 50.24      9RNT1028
+HETATM  919  O   HOH   225      29.826  20.020  13.655  1.00 48.18      9RNT1029
+HETATM  920  O   HOH   226       9.679  -5.213   7.960  1.00 50.91      9RNT1030
+CONECT   11   10   71                                                   9RNT1031
+CONECT   47   46  789                                                   9RNT1032
+CONECT   71   11   70                                                   9RNT1033
+CONECT  108  107                           799                          9RNT1034
+CONECT  109  107                           799                          9RNT1035
+CONECT  789   47  788                                                   9RNT1036
+CONECT  799                                               108           9RNT1037
+CONECT  799                                               109           9RNT1038
+MASTER       56    2    1    1    7   10    0    6  919    1    8    8  9RNT1039
+END                                                                     9RNT1040
+.
